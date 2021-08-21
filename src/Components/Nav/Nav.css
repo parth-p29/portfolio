@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15vh;
+    background-color: blanchedalmond;
+    margin-bottom: 30px;
+}
+
+.logo{
+    width:60%;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    opacity: 70%;
+    transition: ease-in 0.8s;
+    font-size: 15px;
+}
+
+.logo img{
+    width: 150px;
+    height: auto;
+}
