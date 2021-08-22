@@ -65,29 +65,32 @@ const Intro = () => {
                     </div> */}
                 </h1>
                 
-                <p>I study <a href="https://syde.social/">Systems Design Engineering</a> at the University of Waterloo.</p>
+                <p>I study&nbsp;<a href="https://syde.social/">Systems Design Engineering</a>&nbsp;at the University of Waterloo.</p>
                 <p>I have a vast interest in software systems and aspire to create viable solutions aimed towards addressing the problems faced by various people.</p>
-                <p>Previously I worked as a
+                <p>Previously I worked as a&nbsp;
 
                 <div className="typing">
                         <Typewriter
+                            options={{
+                                loop: true
+                            }}
 
                             onInit={(tw) => {
                                 
-                                    tw.typeString('<a class="ceridian" href="https://www.ceridian.com/">Software Developer @ Ceridian</a>')
-                                    tw.pauseFor(2000)
-                                    tw.deleteChars(29)
-                                    tw.pauseFor(1200)
+                                tw.typeString('<a class="ceridian" href="https://www.ceridian.com/">Software Developer @ Ceridian</a>')
+                                tw.pauseFor(2000)
+                                tw.deleteChars(29)
+                                tw.pauseFor(1200)
 
-                                    //
-                                    tw.typeString('<a class="reebee" href="https://www.reebee.com/">Backend Software Engineer @ Reebee</a>')
-                                    tw.pauseFor(2000)
-                                    tw.deleteChars(34)
-                                    tw.pauseFor(1200)
+                                //
+                                tw.typeString('<a class="reebee" href="https://www.reebee.com/">Backend Software Engineer @ Reebee</a>')
+                                tw.pauseFor(2000)
+                                tw.deleteChars(34)
+                                tw.pauseFor(1200)
 
-                                    //
+                                //
 
-                                    .start();
+                                .start();
 
                             }}
 
