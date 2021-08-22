@@ -1,4 +1,5 @@
 import './Nav.css';
+import logo from '../../Assests/parthlogo.jpg';
 
 const Nav = () => {
 
@@ -9,7 +10,7 @@ const Nav = () => {
             <div className="logo">
 
                 <a href="/">
-                    <img src="" />
+                    <img src={logo} />
                 </a>
                 
             </div>

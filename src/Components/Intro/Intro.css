@@ -1,0 +1,30 @@
+.Intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+}
+
+img{
+    width: 160px;
+    height: auto;
+}
+
+.info{
+    width: 50%;
+}
+
+.info p{
+    display: flex;
+}
+
+.typing{
+    margin-left: 10px;
+}
+
+.ceridian{
+    color: #1C77FF;
+    text-decoration: none;
+    
+}

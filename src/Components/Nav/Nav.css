@@ -3,12 +3,11 @@ nav{
     align-items: center;
     justify-content: space-evenly;
     height: 15vh;
-    background-color: blanchedalmond;
     margin-bottom: 30px;
 }
 
 .logo{
-    width:60%;
+    width: 50%;
 }
 
 .links a{
@@ -17,9 +16,11 @@ nav{
     opacity: 70%;
     transition: ease-in 0.8s;
     font-size: 15px;
+    margin: 50px;
 }
 
 .logo img{
-    width: 150px;
-    height: auto;
+    width: 45px;
+    height: 45px;
+    opacity: 75%;
 }
