@@ -3,24 +3,94 @@
     justify-content: center;
     align-items: center;
     height: 50vh;
-
+    margin-bottom: 3%;
 }
 
 img{
     width: 160px;
     height: auto;
+    margin: 40px;
 }
 
 .info{
-    width: 50%;
+    width: 45%;
 }
 
-.info p{
+.info h5{
     display: flex;
+    margin: 15px 0px 15px 0px;
+    font-size: 17px;
+    opacity: 70%;
+}
+.job{
+    color: rgb(68, 126, 250);
+    opacity: 70%;
+    text-decoration: none;
+  }
+
+.info h1{
+    margin-bottom: 15px;
+    font-size: 35px;
+    opacity: 70%;
 }
 
-.ceridian{
-    color: #1C77FF;
-    text-decoration: none;
-    
+.more-info{
+    opacity: 70%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    animation: dropeffect 0.8s ease;
+    font-size: 15px;
+    position: relative;
 }
+
+.more-info img{
+    width: 15px;
+    height: auto;
+    margin-top: 15px;
+    opacity: 70%;
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+@keyframes dropeffect{
+
+    0%{
+
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100%{
+
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(10px);
+    }
+    60% {
+      transform: translateY(10px);
+    }
+  }
+
+/* .cursor{
+    color: blue;
+    /* animation: blinker 0.6s linear infinite; */
+    
+
+
+/* @keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+} */
