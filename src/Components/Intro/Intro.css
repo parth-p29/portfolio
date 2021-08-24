@@ -39,7 +39,6 @@ img{
     width: 100%;
     margin: auto;
     text-align: center;
-    animation: dropeffect 0.8s ease;
     font-size: 15px;
     position: relative;
 }
