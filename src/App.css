@@ -18,3 +18,19 @@
   opacity: 70%;
   text-decoration: none;
 }
+
+.exp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.title h1{
+  margin: 150px 0px 25px 20%;
+  font-size: 35px;
+  opacity: 70%;
+  width: 20%;
+  color: black;
+}

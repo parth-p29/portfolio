@@ -1,15 +1,17 @@
 import './App.css';
-// import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-// import MainPage from './Pages/MainPage/MainPage';
- import Nav from './Components/Nav/Nav';
- import Intro from './Components/Intro/Intro';
- import Particles from 'react-particles-js';
-// import Login from './Pages/LoginPage/LoginPage';
+
+import Nav from './Components/Nav/Nav';
+import Intro from './Components/Intro/Intro';
+import Experience from './Components/Experience/Experience';
+import Particles from 'react-particles-js';
+import Ceridianimg from '../src/Assests/CeridianLogo.jpg';
+import reebeeimg from '../src/Assests/reebee.png';
+import veximg from '../src/Assests/vex.jpg';
+
 
 function App() {
 
   return (
-
     <>
 
 
@@ -72,7 +74,25 @@ function App() {
 	    }
 	}} /> */}
 
-<Intro/>
+	<Intro/>
+
+	<div className="title">
+			<h1 >work experience.</h1>
+	</div>
+
+	<div className="exp">
+		<Experience link="" path={reebeeimg} color="#008CFF" width="105px"/>
+		<Experience link="" path={Ceridianimg} color="#09193D" width="130px"/>
+	</div>
+
+	<div className="title">
+			<h1 >extracurriculars.</h1>
+	</div>
+
+	<div className="exp">
+		<Experience link="" path={veximg} color="#DA262F" width="125px"/>
+	</div>
+
 
     </>
   )

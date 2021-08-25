@@ -1,24 +1,14 @@
-import './Nav.css';
-import logo from '../../Assests/parthlogo.jpg';
+import './Experience.css';
 
-const Nav = (link) => {
+const Experience = (props) => {
 
     return (
 
-        <div className="experience">
-
-            <a href={link}>
-                <div class="company">
-                    <img src="Photos/CeridianLogo.jpg" />
-                </div>
-            </a>
-
-
-
+        <div class="company" style={{backgroundColor: props.color}}>
+            <img src={props.path} style={{width: props.width}}/>
         </div>
-
     );
 
 }
 
-export default Nav;
+export default Experience;

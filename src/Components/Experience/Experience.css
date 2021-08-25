@@ -1,0 +1,22 @@
+.company{
+    background-color: #09193D;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    border-radius: 10px;
+    margin: 20px;
+    opacity: 95%;
+    transition: transform 0.3s ease, box-shadow 0.4s ease ;
+}
+
+.company:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 13px 14px 13px -12px rgba(97,97,97,1);
+
+}
+
+.company img{
+    height: auto;
+}
