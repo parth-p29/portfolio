@@ -3,10 +3,9 @@ import './Experience.css';
 const Experience = (props) => {
 
     return (
-
-        <div class="company" style={{backgroundColor: props.color}}>
+        <a class="company" href={props.link} style={{backgroundColor: props.color}}>
             <img src={props.path} style={{width: props.width}}/>
-        </div>
+        </a>
     );
 
 }
