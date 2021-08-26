@@ -1,0 +1,27 @@
+.company-info{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.company-title{
+    text-align: center;
+}
+
+.company-title h1{
+    margin-bottom: 15px;
+    font-size: 35px;
+    opacity: 70%;
+}
+
+.company-title h1{
+    margin-bottom: 15px;
+    font-size: 35px;
+    opacity: 70%;
+}
+
+.company-title p{
+    opacity: 40%;
+    margin: 5px;
+}

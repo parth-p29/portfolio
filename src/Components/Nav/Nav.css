@@ -14,10 +14,14 @@ nav{
     text-decoration: none;
     color: black;
     opacity: 70%;
-    transition: ease-in 0.8s;
     font-size: 15px;
     margin: 50px;
 }
+
+.links a:hover{
+    border-bottom: 2px solid rgb(68, 126, 250);
+    padding-bottom: 1px;
+}   
 
 .logo img{
     width: 45px;
