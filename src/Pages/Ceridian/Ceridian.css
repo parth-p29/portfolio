@@ -9,6 +9,25 @@
     text-align: center;
 }
 
+.job-desc {
+    opacity: 67%;
+}
+
+.job-desc p{
+    margin: 10px;
+    text-align: center;
+}
+
+.job-desc li{
+    margin: 8px;
+}
+
+.i{
+    text-align: center;
+    margin: 20px;
+    opacity: 40%;
+}
+
 .company-title h1{
     margin-bottom: 8px;
     font-size: 35px;
@@ -21,5 +40,5 @@
 }
 
 .images{
-    margin: 100px;
+    margin: 50px;
 }

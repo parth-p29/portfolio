@@ -1,0 +1,32 @@
+footer{
+    margin: 150px 0px 50px 0px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts a{
+    margin: 15px 30px 15px 30px;
+    /* text-decoration: none;
+    color: black;
+    opacity: 70%; */
+    width: 20px;
+    height: 20px;
+}
+
+.contacts img{
+    width: 20px;
+    height: 20px;
+    opacity: 55%;
+    /* margin: 15px 30px 15px 30px; */
+}
+
+.copyright{
+    margin-top: 5px;
+    margin-bottom: 80px;
+    text-align: center;
+    opacity: 40%;
+}

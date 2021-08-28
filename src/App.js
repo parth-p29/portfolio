@@ -3,7 +3,7 @@ import './App.css';
 import Nav from './Components/Nav/Nav';
 import Ceridian from './Pages/Ceridian/Ceridian';
 import Home from './Pages/Home/Home';
-
+import Footer from './Components/Footer/Footer';
 
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 function App() {
@@ -20,6 +20,8 @@ function App() {
 			<Route path="/Ceridian" component={Ceridian} />
 			
 		</Switch>
+
+		<Footer />
 
     </BrowserRouter>
 
