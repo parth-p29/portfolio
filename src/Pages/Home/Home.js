@@ -4,7 +4,7 @@ import Experience from '../../Components/Experience/Experience';
 import Ceridianimg from '../../Assests/CeridianLogo.jpg';
 import reebeeimg from '../../Assests/reebee.png';
 import veximg from '../../Assests/vex.jpg';
-import Footer from '../../Components/Footer/Footer';
+import Project from '../../Components/Project/Project';
 
 const Home = () => {
 
@@ -31,6 +31,10 @@ const Home = () => {
 
             <div className="title">
                     <h1>projects.</h1>
+            </div>
+
+            <div className="exp">
+                <Project />
             </div>
 
         </>
