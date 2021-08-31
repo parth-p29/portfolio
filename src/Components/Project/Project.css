@@ -1,35 +1,61 @@
 .project-container{
-    width: 50%;
-    height: auto;
-    border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.4s ease ;
-    display: flex;
     text-decoration: none;
     color: black;
-    border: 0.6px solid black;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.4s ease ;
 }
-
-.project-info{
-    width: 50%;
-    margin: 15px;
-    opacity: 70%;
+.project-image{
+    width: 400px;
+    height: 370px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.212);
 }
 
 .project-container:hover{
     transform: translateY(-10px);
-    box-shadow: 13px 14px 13px -12px rgba(97,97,97,1);
+    box-shadow: 13px 14px 13px -12px rgba(97,97,97,1);  
 }
 
-.project-image{
-    width: 50%;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
+.p-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.212);
+    border-left: 1px solid rgba(0, 0, 0, 0.212);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+}
+
+.p-info h3{
+    width: 50%;
+    opacity: 48%;
+
+}
+
+.p-info p{
+    opacity: 70%;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 13px;
+    opacity: 48%;
+}
+
+.skill-tags{
+    display: flex;
+    justify-content: space-between;
+    width: 50%
 }
 .project-container img{
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }

@@ -56,7 +56,7 @@ const Ceridian = () => {
             <div className="company-info">
 
                 <div className="company-title">
-                    <h1>Ceridian Internship (Winter'21)</h1>
+                    <h1>Ceridian Internship (Winter 2021)</h1>
                 </div>
 
                 <div className="job-desc">

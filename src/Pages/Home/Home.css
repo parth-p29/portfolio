@@ -14,3 +14,17 @@
   color: black;
 }
 
+.projs{
+  display: flex;
+  justify-content: center;
+}
+
+.proj1{
+  margin: 20px
+}
+
+.proj2{
+  margin: 20px
+}
+
+

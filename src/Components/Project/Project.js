@@ -1,22 +1,24 @@
 import './Project.css';
-import diversify from '../../Assests/diversifyproj.jpg';
 
-
-const Project = () => {
+const Project = (props) => {
 
     return (
         <a href="" className="project-container">
 
             <div className="project-image">
 
-                <img src={diversify} />
+                <img src={props.image} /> 
 
             </div>
 
-            <div className="project-info">
+            <div className="p-info">
+                <h3>Diversify</h3>
 
-                <h3>Helping users understand their music data and get to know themselves better</h3>
-
+                <div className="skill-tags">
+                    <p>Flask</p>
+                    <p>Flask</p>
+                    <p>Flask</p>
+                </div>
             </div>
 
         </a>
