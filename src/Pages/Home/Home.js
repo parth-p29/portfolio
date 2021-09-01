@@ -6,7 +6,6 @@ import reebeeimg from '../../Assests/reebee.png';
 import veximg from '../../Assests/vex.jpg';
 import waterloop from '../../Assests/waterloop.png';
 
-
 import Project from '../../Components/Project/Project';
 
 import diversify from '../../Assests/diversifyproj.jpg';

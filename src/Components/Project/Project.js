@@ -3,7 +3,7 @@ import './Project.css';
 const Project = (props) => {
 
     return (
-        <a href={props.link} className="project-container">
+        <a href={props.link} className="project-container" target="_blank">
 
             <div className="project-image">
 
