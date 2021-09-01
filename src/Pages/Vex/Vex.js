@@ -16,8 +16,8 @@ const photos = [
 
     {
         src: cpic2,
-        width: 15,
-        height: 19
+        width: 35,
+        height: 29
     },
 
     {
