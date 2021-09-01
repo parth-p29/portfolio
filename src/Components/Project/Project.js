@@ -3,7 +3,7 @@ import './Project.css';
 const Project = (props) => {
 
     return (
-        <a href="" className="project-container">
+        <a href={props.link} className="project-container">
 
             <div className="project-image">
 
@@ -12,12 +12,12 @@ const Project = (props) => {
             </div>
 
             <div className="p-info">
-                <h3>Diversify</h3>
+                <h3>{props.name}</h3>
 
                 <div className="skill-tags">
-                    <p>Flask</p>
-                    <p>Flask</p>
-                    <p>Flask</p>
+                    <p>{props.s1}</p>
+                    <p>{props.s2}</p>
+                    <p>{props.s3}</p>
                 </div>
             </div>
 

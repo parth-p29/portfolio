@@ -59,6 +59,7 @@ const Ceridian = () => {
                     <h1>Ceridian Internship (Winter 2021)</h1>
                 </div>
 
+
                 <div className="job-desc">
                         <p>
                             Technologies: C#, SQL, MongoGB, Azure, Postman, Kubernetes/Docker 

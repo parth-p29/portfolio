@@ -27,4 +27,21 @@
   margin: 20px
 }
 
+.more-projs{
+  width: 100%;
+  text-align:center;
+  opacity: 70%;
+  margin: 50px 0px 150px 0px;
+}
+
+.more-projs a{
+  text-decoration: none;
+  color: black;
+  opacity: 70%;
+  font-size: 15px;
+  border: 1px solid black;
+  padding: 15px 20px 15px 20px;
+  border-radius: 5px;
+}
+
 
