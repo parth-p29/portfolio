@@ -1,11 +1,12 @@
 import './Nav.css';
 import logo from '../../Assests/parthlogo.jpg';
+import {Link} from 'react-scroll';
 
 const Nav = () => {
 
     return (
 
-        <nav>
+        <nav id="nav">
 
             <div className="logo">
 
@@ -15,15 +16,11 @@ const Nav = () => {
                 
             </div>
 
-            <div className="links">
-
-                <a href="/">
-                    work.
-                </a>
+            <div className="links" >
                 
-                <a href="https://github.com/parth-p29?tab=repositories" target="_blank">
-                    about.
-                </a>
+                <Link to="footer" smooth={true} duration={1000} className="slink">
+                    contact.
+                </Link>
 
                 <a href="https://drive.google.com/file/d/1QP89yaRDbK2uP0fFEfNwUkMhBXV0weac/view?usp=sharing" target="_blank">
                     resume.

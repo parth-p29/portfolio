@@ -28,3 +28,7 @@ nav{
     height: 45px;
     opacity: 75%;
 }
+
+.slink{
+    cursor: pointer;
+}

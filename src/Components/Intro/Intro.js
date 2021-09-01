@@ -13,7 +13,7 @@ const Intro = () => {
 
     return (
 
-        <div className="container">
+        <div className="container" id="intro">
             <div className="Intro">
 
                 <div className="info">
@@ -115,7 +115,7 @@ const Intro = () => {
 
             </div>
 
-            <div className="more-info">
+            <div className="more-info" id="mi">
                 <p>check out my work below.</p>
                 <img src={arrow} />
             </div> 

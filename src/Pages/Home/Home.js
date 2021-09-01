@@ -19,7 +19,7 @@ const Home = () => {
         <>
             <Intro/>
 
-            <div className="title">
+            <div className="title" id ="experience">
                     <h1 >experience.</h1>
             </div>
 

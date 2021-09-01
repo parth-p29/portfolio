@@ -7,7 +7,7 @@ import linkedin from './icons/linkedin.svg';
 const Footer = () => {
 
     return (
-        <footer>
+        <footer id="footer">
             <div className="contacts">
                 <a href="https://www.linkedin.com/in/parth-29/" target="_blank"> <img src={linkedin} /> </a>
                 <a href="https://github.com/parth-p29" target="_blank"> <img src={github} /> </a>
