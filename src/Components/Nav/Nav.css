@@ -15,7 +15,7 @@ nav{
     color: black;
     opacity: 70%;
     font-size: 15px;
-    margin: 50px;
+    margin: 30px;
 }
 
 .links a:hover{
@@ -31,4 +31,20 @@ nav{
 
 .slink{
     cursor: pointer;
+}
+
+.burger{
+    display: none;
+}
+
+.burger div{
+    width: 23px;
+    height: 2.5px;
+    background-color:black;
+    opacity: 70%;
+    margin: 5px;
+}
+
+@media  screen and (max-width:990px) {
+
 }

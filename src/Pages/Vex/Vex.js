@@ -5,6 +5,7 @@ import cpic2 from '../../Assests/vexworldsgroup.png';
 import cpic3 from '../../Assests/worlds.JPG';
 import cpic4 from '../../Assests/r1.JPG';
 import cpic6 from '../../Assests/leviathan.png';
+import cpic7 from '../../Assests/v2.PNG';
 
 const photos = [
     {
@@ -38,11 +39,11 @@ const photos = [
         height: 16
     },
 
-        // {
-        //     src: cpic7,
-        //     width: 15,
-        //     height: 18
-        // }
+    {
+        src: cpic7,
+        width: 15,
+        height: 18
+    }
 
   ];
 
@@ -78,7 +79,7 @@ const Vex = () => {
             </div>
 
             <div className="images">
-                <p className='i'>Some pics from Vex</p>
+                <p className='i'>Some pictures from Vex</p>
                     <Gallery photos={photos} direction={"column"} />; 
             </div>
 

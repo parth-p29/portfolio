@@ -80,7 +80,7 @@ const Ceridian = () => {
             </div>
 
             <div className="images">
-                <p className='i'>Some pics from working at Ceridian</p>
+                <p className='i'>Some pictures from working at Ceridian</p>
                     <Gallery photos={photos} direction={"column"} />;
             </div>
 

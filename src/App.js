@@ -8,6 +8,7 @@ import Home from './Pages/Home/Home';
 import Footer from './Components/Footer/Footer';
 
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
+
 function App() {
 
   return (
@@ -22,7 +23,6 @@ function App() {
 			<Route path="/Ceridian" component={Ceridian} />
 			<Route path="/Reebee" component={Reebee} />
 			<Route path="/Vex" component={Vex} />
-
 			
 		</Switch>
 

@@ -26,8 +26,9 @@ const Home = () => {
             <div className="exp">
                 <Experience path={reebeeimg} name="Reebee Internship" link="/Reebee" color="#008CFF" width="105px"/>
                 <Experience path={Ceridianimg} name="Ceridian Internship" link="/Ceridian" color="#09193D" width="130px"/>
+                <Experience link="/Vex" path={veximg} name="Vex Robotics" color="#DA262F" width="125px"/>
             </div>
-
+{/* 
             <div className="title">
                     <h1>extracurriculars.</h1>
             </div>
@@ -35,7 +36,7 @@ const Home = () => {
             <div className="exp">
                 <Experience link="/Waterloop" path={waterloop} name="Waterloop" color="rgb(0, 0, 0)" width="125px"/>
                 <Experience link="/Vex" path={veximg} name="Vex Robotics" color="#DA262F" width="125px"/>
-            </div> 
+            </div>  */}
 
             <div className="title">
                     <h1>projects.</h1>

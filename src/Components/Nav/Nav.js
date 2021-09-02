@@ -2,6 +2,8 @@ import './Nav.css';
 import logo from '../../Assests/parthlogo.jpg';
 import {Link} from 'react-scroll';
 
+import resume from './Parth_Patel_Resume.pdf'
+
 const Nav = () => {
 
     return (
@@ -22,10 +24,16 @@ const Nav = () => {
                     contact.
                 </Link>
 
-                <a href="https://drive.google.com/file/d/1QP89yaRDbK2uP0fFEfNwUkMhBXV0weac/view?usp=sharing" target="_blank">
+                <a href={resume} target="_blank">
                     resume.
                 </a>
 
+            </div>
+
+            <div className="burger">
+                <div className="lin1"></div>
+                <div className="lin2"></div>
+                <div className="lin3"></div>
             </div>
 
         </nav>
