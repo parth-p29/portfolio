@@ -4,7 +4,6 @@ import Experience from '../../Components/Experience/Experience';
 import Ceridianimg from '../../Assests/CeridianLogo.jpg';
 import reebeeimg from '../../Assests/reebee.png';
 import veximg from '../../Assests/vex.jpg';
-import waterloop from '../../Assests/waterloop.png';
 
 import Project from '../../Components/Project/Project';
 
