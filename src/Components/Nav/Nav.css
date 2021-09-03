@@ -20,7 +20,7 @@ nav{
 
 .links a:hover{
     border-bottom: 2px solid rgb(68, 126, 250);
-    padding-bottom: 1px;
+    padding-bottom: 3px;
 }   
 
 .logo img{
@@ -56,15 +56,22 @@ nav{
         right: 0px;
         height: 50vh;
         top: 13vh;
-        opacity: 88%;
+        opacity: 92%;
+        background-color: rgb(231, 231, 231);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 45%;
+        height: 60%;
         border: 1px solid rgb(233, 233, 233);
         transition: transform 0.5s ease-in;
         transform: translateX(100%);
+        z-index: 100;
+    }
+    .links a {
+        background-color: rgb(231, 231, 231);
+
     }
     .burger{
         display: block;
