@@ -1,5 +1,5 @@
 import pic from '../../Assests/intropic.jpg';
-import './Intro.css';
+//import './Intro.css';
 import Typewriter from 'typewriter-effect';
 import arrow from '../../Assests/down-arrow.png';
 
