@@ -79,3 +79,20 @@
       transform: translateY(10px);
     }
   }
+
+@media  screen and (max-width:1200px) {
+    /* .Intro{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        margin-bottom: 3%;
+    } */
+
+    .info{
+        width: 60%;
+    }
+    
+
+}
+

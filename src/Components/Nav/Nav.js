@@ -4,6 +4,17 @@ import {Link} from 'react-scroll';
 
 import resume from './Parth_Patel_Resume.pdf'
 
+// const slide = () => {
+//     const burger = document.querySelector('.burger');
+//     const links = document.querySelector('.links');
+
+//     burger.addEventListener('click', ()=>{
+//         links.classList.toggle('transition');
+//     });
+// }
+
+// slide();
+
 const Nav = () => {
 
     return (

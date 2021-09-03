@@ -35,6 +35,7 @@ nav{
 
 .burger{
     display: none;
+    opacity: 70%;
 }
 
 .burger div{
@@ -45,6 +46,32 @@ nav{
     margin: 5px;
 }
 
-@media  screen and (max-width:990px) {
+@media  screen and (max-width:768px) {
 
+    body{
+        overflow-x: hidden;
+    }
+    .links{
+        position: absolute;
+        right: 0px;
+        height: 50vh;
+        top: 13vh;
+        opacity: 88%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        border: 1px solid rgb(233, 233, 233);
+        transition: transform 0.5s ease-in;
+        transform: translateX(100%);
+    }
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+.transition{
+    transform: translateX(0%);
 }
