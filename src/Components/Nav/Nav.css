@@ -10,14 +10,14 @@
     width: 50%;
 }
 
-/* .links a{
+.links a{
     text-decoration: none;
     color: black;
     opacity: 70%;
     font-size: 15px;
     margin: 30px;
 }
-
+/*
 .links a:hover{
     border-bottom: 2px solid rgb(68, 126, 250);
     padding-bottom: 3px;
