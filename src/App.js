@@ -13,7 +13,7 @@ function App() {
 
   return (
 
-	<BrowserRouter basename="/React">
+	<BrowserRouter baseline="/">
     
 		<Nav/>
 
