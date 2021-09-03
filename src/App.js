@@ -7,13 +7,13 @@ import Vex from './Pages/Vex/Vex';
 import Home from './Pages/Home/Home';
 import Footer from './Components/Footer/Footer';
 
-import {HashRouter, Switch, Route} from 'react-router-dom';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 function App() {
 
   return (
 
-	<HashRouter>
+	<BrowserRouter>
     
 		<Nav/>
 
@@ -28,7 +28,7 @@ function App() {
 
 		<Footer />
 
-    </HashRouter>
+    </BrowserRouter>
 
   )
 
