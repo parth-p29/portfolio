@@ -1,11 +1,11 @@
-/* nav{
+ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: 15vh;
     margin-bottom: 60px;
 }
-
+/* 
 .logo{
     width: 50%;
 }
@@ -81,4 +81,4 @@
 
 .transition{
     transform: translateX(0%);
-} */
+} */ */
