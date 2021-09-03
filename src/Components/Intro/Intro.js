@@ -3,12 +3,6 @@ import './Intro.css';
 import Typewriter from 'typewriter-effect';
 import arrow from '../../Assests/down-arrow.png';
 
-const phrases = [
-    "I'm Parth.",
-    "I'm a software engineer.",
-    "I'm a problem-solver.",
-]
-
 const Intro = () => {
 
     return (
@@ -20,51 +14,7 @@ const Intro = () => {
 
                     <h1>
                         Hey, I'm Parth!
-                        {/* <div className="typing">
-                            <Typewriter
 
-                                onInit={(tw) => {
-                                    
-                                        tw.typeString('Parth!')
-                                        tw.pauseFor(2000)
-                                        tw.deleteChars(6)
-                                        tw.pauseFor(1200)
-
-                                        //
-                                        tw.typeString('a software developer.')
-                                        tw.pauseFor(2000)
-                                        tw.deleteChars(19)
-                                        tw.pauseFor(1200)
-
-                                        //
-
-                                        tw.typeString('designer.')
-                                        tw.pauseFor(2000)
-                                        tw.deleteChars(11)
-                                        tw.pauseFor(1200)
-
-                                        //
-
-                                        tw.typeString('an explorer.')
-                                        tw.pauseFor(2000)
-                                        tw.deleteChars(11)
-                                        tw.pauseFor(1200)
-
-                                        //
-
-                                        tw.typeString(' problem-solver.')
-                                        tw.pauseFor(2000)
-                                        tw.deleteChars(19)
-                                        tw.pauseFor(1200)
-
-                                        //
-                                        
-                                        .start();
-
-                                }}
-
-                            />
-                        </div> */}
                     </h1>
                     
                     <h5>I study&nbsp;<a class="link" target="_blank" href="https://syde.social/">Systems Design Engineering</a>&nbsp;at the University of Waterloo.</h5>

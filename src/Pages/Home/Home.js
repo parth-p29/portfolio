@@ -1,5 +1,5 @@
 import './Home.css';
-// import Intro from '../../Components/Intro/Intro'
+import Intro from '../../Components/Intro/Intro'
 import Experience from '../../Components/Experience/Experience';
 import Ceridianimg from '../../Assests/CeridianLogo.jpg';
 import reebeeimg from '../../Assests/reebee.png';
@@ -16,7 +16,7 @@ const Home = () => {
 
     return (
         <>
-            {/* <Intro/> */}
+            <Intro/> 
 
             <div className="title" id ="experience">
                     <h1 >experience.</h1>
