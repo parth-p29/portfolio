@@ -17,7 +17,7 @@
     font-size: 15px;
     margin: 30px;
 }
-/*
+
 .links a:hover{
     border-bottom: 2px solid rgb(68, 126, 250);
     padding-bottom: 3px;
@@ -27,8 +27,8 @@
     width: 45px;
     height: 45px;
     opacity: 75%;
-} */
-/*
+} 
+
 .slink{
     cursor: pointer;
 }
@@ -81,4 +81,4 @@
 
 .transition{
     transform: translateX(0%);
-} */ 
+} 
