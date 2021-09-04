@@ -11,7 +11,7 @@
 
 .links a{
     text-decoration: none;
-    color: black;
+    color: #4D4D4D;
     font-size: 15px;
     margin: 30px;
 }
@@ -37,7 +37,7 @@
 .burger div{
     width: 23px;
     height: 2.5px;
-    background-color:black;
+    background-color:#4D4D4D;
     margin: 5px;
 }
 
