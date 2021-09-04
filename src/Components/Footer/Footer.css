@@ -10,9 +10,6 @@ footer{
 
 .contacts a{
     margin: 15px 30px 15px 30px;
-    /* text-decoration: none;
-    color: black;
-    opacity: 70%; */
     width: 20px;
     height: 20px;
 }
@@ -20,9 +17,7 @@ footer{
 .contacts img{
     width: 20px;
     height: 20px;
-    opacity: 55%;
     transition: transform 0.3s ease;
-    /* margin: 15px 30px 15px 30px; */
 }
 
 .contacts img:hover{
@@ -33,5 +28,5 @@ footer{
     margin-top: 5px;
     margin-bottom: 80px;
     text-align: center;
-    opacity: 40%;
+    color: #4D4D4D;
 }

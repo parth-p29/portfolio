@@ -7,7 +7,6 @@
     padding: 35px;
     border-radius: 10px;
     margin: 20px;
-    opacity: 5%;
     transition: transform 0.3s ease, box-shadow 0.4s ease ;
 }
 
