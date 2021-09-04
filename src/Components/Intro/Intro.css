@@ -20,26 +20,26 @@
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 17px;
-    opacity: 70%;
+    color: #4D4D4D;
+    
 }
 
 #l{
     display: flex;
 }
 .job{
-    color: rgb(68, 126, 250);
-    opacity: 70%;
+    color: #A9C4FD;
     text-decoration: none;
   }
 
 .info h1{
     margin-bottom: 15px;
     font-size: 35px;
-    opacity: 70%;
+    color: #4D4D4D;
 }
 
 .more-info{
-    opacity: 70%;
+    color: #4D4D4D;
     width: 100%;
     margin: auto;
     text-align: center;
