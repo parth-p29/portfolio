@@ -20,7 +20,7 @@ const Home = () => {
 
             <div className="title" id ="experience">
                     <h1 >experience.</h1>
-            </div>
+            </div> 
 
             <div className="exp">
                 <Experience path={reebeeimg} name="Reebee Internship" link="/Reebee" color="#008CFF" width="105px"/>
