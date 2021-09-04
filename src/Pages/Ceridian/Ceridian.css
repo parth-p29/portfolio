@@ -10,7 +10,7 @@
 }
 
 .job-desc {
-    opacity: 67%;
+    color: #4D4D4D;
 }
 
 .job-desc p{
@@ -25,17 +25,16 @@
 .i{
     text-align: center;
     margin: 20px;
-    opacity: 40%;
+    color: #4D4D4D;
 }
 
 .company-title h1{
     margin-bottom: 8px;
     font-size: 35px;
-    opacity: 70%;
+    color: #4D4D4D;
 }
 
 .company-title p{
-    opacity: 40%;
     margin: 5px;
 }
 
