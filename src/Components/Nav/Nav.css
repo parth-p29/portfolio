@@ -6,6 +6,11 @@
     margin-bottom: 60px;
     background-color: white;
 }
+
+body{
+    background-color: white;
+}
+
 .logo{
     width: 50%;
 }
@@ -13,15 +18,20 @@
 .links a{
     text-decoration: none;
     color: black;
+    opacity: 70%;
     font-size: 15px;
     margin: 30px;
 }
 
+.links a:hover{
+    border-bottom: 2px solid rgb(68, 126, 250);
+    padding-bottom: 3px;
+}   
 
 .logo img{
     width: 45px;
     height: 45px;
-    
+    opacity: 75%;
 } 
 
 .slink{
