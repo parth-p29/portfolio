@@ -81,7 +81,7 @@ const Ceridian = () => {
 
             <div className="images">
                 <p className='i'>Some pictures from working at Ceridian</p>
-                    <Gallery photos={photos} direction={"column"} />;
+                    <Gallery photos={photos} direction={"column"} />
             </div>
 
         </>

@@ -18,3 +18,10 @@
 .company img{
     height: auto;
 }
+
+@media  screen and (max-width:400px) {
+
+    .company{
+      width: 80%;
+    }
+}
