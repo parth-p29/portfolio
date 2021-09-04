@@ -4,13 +4,7 @@
     justify-content: space-evenly;
     height: 15vh;
     margin-bottom: 60px;
-    background-color: white;
 }
-
-body{
-    background-color: white;
-}
-
 .logo{
     width: 50%;
 }
@@ -35,3 +29,50 @@ body{
 .slink{
     cursor: pointer;
 }
+
+.burger{
+    display: none;
+}
+
+.burger div{
+    width: 23px;
+    height: 2.5px;
+    background-color:black;
+    margin: 5px;
+}
+
+@media  screen and (max-width:768px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    .links{
+        position: absolute;
+        right: 0px;
+        height: 50vh;
+        top: 13vh;
+        background-color: rgb(231, 231, 231);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        height: 60%;
+        border: 1px solid rgb(233, 233, 233);
+        transition: transform 0.5s ease-in;
+        transform: translateX(100%);
+        z-index: 100;
+    }
+    .links a {
+        background-color: rgb(231, 231, 231);
+
+    }
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+.transition{
+    transform: translateX(0%);
+} 
