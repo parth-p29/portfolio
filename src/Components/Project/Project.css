@@ -37,10 +37,11 @@
 
 .p-info p{
     padding: 5px 10px 5px 10px;
-    border: 1px solid #858585;
+    border: 1px solid black;
     border-radius: 20px;
     font-size: 10px;
     margin: 5px;
+    opacity: 0.4;
 }
 
 .skill-tags{
