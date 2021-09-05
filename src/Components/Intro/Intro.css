@@ -130,7 +130,7 @@
     }
 }
 
-@media  screen and (max-width:400px) {
+@media  screen and (max-width:600px) {
 
     .Intro{
         display: flex;
@@ -138,16 +138,21 @@
         align-items: center;
         justify-content: center;
         height: 60vh;
+        margin-top: 30%;
     }
     .info{
         width: 80%;
     }
-    .info h3{
-        font-size: 12px;
+    .info h5{
+        font-size: 13px;
     }
     .image img{
         width: 120px;
         height: auto;
         margin: 40px 0px 60px 0px; 
+    }
+
+    #l{
+        width: 100%;
     }
 }

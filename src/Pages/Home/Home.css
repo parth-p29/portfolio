@@ -9,7 +9,6 @@
 .title h1{
   margin: 120px 0px 25px 21%;
   font-size: 35px;
-  width: 20%;
   color: #4D4D4D;
 }
 
@@ -57,5 +56,10 @@
 
   .company{
     width: 100%;
+  }
+
+  .title h1{
+    margin: 0;
+    text-align: center;
   }
 }

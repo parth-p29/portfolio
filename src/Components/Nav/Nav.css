@@ -30,6 +30,20 @@
     cursor: pointer;
 }
 
-@media  screen and (max-width:768px) {
+@media  screen and (max-width:400px) {
 
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    .links a{
+        color: white;
+        opacity: 0.88;
+    }
+    .logo img{
+        display: none;
+    } 
 }
