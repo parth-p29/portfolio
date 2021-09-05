@@ -55,11 +55,3 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
-@media  screen and (max-width:400px) {
-
-    .project-image{
-      width: 340px;
-      height: 310px;
-    }
-  }
