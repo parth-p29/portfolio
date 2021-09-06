@@ -19,7 +19,7 @@
     height: auto;
 }
 
-@media  screen and (max-width:400px) {
+@media  screen and (max-width:450px) {
 
     .company{
       width: 80%;

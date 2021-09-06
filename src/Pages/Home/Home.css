@@ -40,7 +40,15 @@
   border-radius: 5px;
 }
 
-@media  screen and (max-width:400px) {
+@media  screen and (max-width:770px) {
+
+  .title h1{
+    margin: 0;
+    text-align: center;
+  }
+}
+
+@media  screen and (max-width:450px) {
 
   .projs{
     display: flex;
@@ -56,10 +64,5 @@
 
   .company{
     width: 100%;
-  }
-
-  .title h1{
-    margin: 0;
-    text-align: center;
   }
 }
