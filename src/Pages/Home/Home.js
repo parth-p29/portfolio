@@ -23,9 +23,9 @@ const Home = () => {
             </div> 
 
             <div className="exp">
-                <Experience path={reebeeimg} name="Reebee Internship" link="/Reebee" color="#008CFF" width="105px"/>
-                <Experience path={Ceridianimg} name="Ceridian Internship" link="/Ceridian" color="#09193D" width="130px"/>
-                <Experience link="/Vex" path={veximg} name="Vex Robotics" color="#DA262F" width="125px"/>
+                <Experience path={reebeeimg} name="Reebee Internship" link="/reebee" color="#008CFF" width="105px"/>
+                <Experience path={Ceridianimg} name="Ceridian Internship" link="/ceridian" color="#09193D" width="130px"/>
+                <Experience link="/vex" path={veximg} name="Vex Robotics" color="#DA262F" width="125px"/>
             </div>
 {/* 
             <div className="title">

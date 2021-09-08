@@ -20,9 +20,9 @@ function App() {
 		<Switch>
 
 			<Route path="/" exact component={Home} />
-			<Route path="/Ceridian" component={Ceridian} />
-			<Route path="/Reebee" component={Reebee} />
-			<Route path="/Vex" component={Vex} />
+			<Route path="/ceridian" component={Ceridian} />
+			<Route path="/reebee" component={Reebee} />
+			<Route path="/vex" component={Vex} />
 			
 		</Switch>
 
