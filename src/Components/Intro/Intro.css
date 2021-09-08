@@ -25,6 +25,7 @@
 
 #l{
     display: flex;
+    align-items: center;
 }
 
 .job{
