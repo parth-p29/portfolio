@@ -6,8 +6,14 @@
     margin-bottom: 130px;
 }
 
+.title{
+  width: 58%;
+  margin: auto;
+}
+
 .title h1{
-  margin: 120px 0px 25px 21%;
+  margin: 120px 0px 25px 0;
+  /* margin: 120px 0px 25px 21%; */
   font-size: 35px;
   color: #4D4D4D;
 }

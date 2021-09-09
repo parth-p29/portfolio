@@ -19,7 +19,7 @@ const Home = () => {
             <Intro/> 
 
             <div className="title" id ="experience">
-                    <h1 >experience.</h1>
+                    <h1 >Experience.</h1>
             </div> 
 
             <div className="exp">
@@ -38,7 +38,7 @@ const Home = () => {
             </div>  */}
 
             <div className="title">
-                    <h1>projects.</h1>
+                    <h1>Projects.</h1>
             </div>
 
             
@@ -60,7 +60,7 @@ const Home = () => {
 
             <div className="more-projs">
                 <a href="https://github.com/parth-p29?tab=repositories" target="_blank">
-                    more projects.
+                    More Projects.
                 </a>
             </div>
 

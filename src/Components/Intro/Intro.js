@@ -8,14 +8,12 @@ const Intro = () => {
     return (
 
         <div className="container" id="intro">
+
             <div className="Intro">
 
                 <div className="info">
 
-                    <h1>
-                        Hey, I'm Parth!
-
-                    </h1>
+                    <h1>Hey, I'm Parth!</h1>
                     
                     <h5>I study&nbsp;<a class="link" target="_blank" href="https://syde.social/">Systems Design Engineering</a>&nbsp;at the University of Waterloo.</h5>
                     <h5>I have a vast interest in software systems and aspire to create viable solutions aimed towards solving the problems faced by all kinds of people.</h5>

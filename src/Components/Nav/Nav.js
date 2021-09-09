@@ -21,11 +21,11 @@ const Nav = () => {
             <div className="links" >
                 
                 <Link to="footer" smooth={true} duration={1000} className="slink">
-                    contact.
+                    Contact.
                 </Link>
 
                 <a href={resume} target="_blank">
-                    resume.
+                    Resume.
                 </a>
 
             </div>
