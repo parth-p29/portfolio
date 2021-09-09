@@ -27,6 +27,14 @@
     }
 }
 
+@media  screen and (min-width:1650px) {
+
+    .company{
+        width: 60%;
+        height: 190px;
+    }
+}
+
 @media  screen and (max-width:1300px) {
 
     .company{
