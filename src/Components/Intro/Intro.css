@@ -81,6 +81,28 @@
     }
   }
 
+@media  screen and (max-width:1650px) {
+
+    #intro{
+        margin: 0px 350px 0px 350px;
+    }
+
+    .title{
+        margin-left: 350px;
+    }
+}
+
+@media  screen and (max-width:1300px) {
+
+    #intro{
+        margin: 0px 180px 0px 180px;
+    }
+
+    .title{
+        margin-left: 180px;
+    }
+}
+
 @media  screen and (max-width:1300px) {
 
     #intro{
