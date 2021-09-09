@@ -7,13 +7,11 @@
 }
 
 .title{
-  width: 58%;
-  margin: auto;
+  margin-left: 300px;
 }
 
 .title h1{
-  margin: 120px 0px 25px 0;
-  /* margin: 120px 0px 25px 21%; */
+  margin: 120px 0px 25px 0px;
   font-size: 35px;
   color: #4D4D4D;
 }
@@ -46,20 +44,28 @@
   border-radius: 5px;
 }
 
-@media  screen and (max-width:770px) {
+@media  screen and (max-width:1024px) {
 
-  .title h1{
-    margin: 0;
-    text-align: center;
-  }
+  .title{
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+  } 
 }
 
-@media  screen and (max-width:450px) {
+@media  screen and (max-width:850px) {
 
   .projs{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media  screen and (max-width:450px) {
+
+  .exp{
+    margin-bottom: 50px;
   }
 }

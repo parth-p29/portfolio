@@ -1,5 +1,6 @@
 .company{
-    width: 45%;
+    width: 50%;
+    height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,5 +24,21 @@
 
     .company{
       width: 80%;
+    }
+}
+
+@media  screen and (max-width:1300px) {
+
+    .company{
+        width: 60%;
+        height: 190px;
+    }
+}
+
+@media  screen and (max-width:1024px) {
+
+    .company{
+        width: 70%;
+        height: 190px;
     }
 }

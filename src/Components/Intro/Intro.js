@@ -63,7 +63,7 @@ const Intro = () => {
             </div>
 
             <div className="more-info" id="mi">
-                <p>check out my work below.</p>
+                <p>Check out my work below.</p>
                 <img src={arrow} />
             </div> 
 
