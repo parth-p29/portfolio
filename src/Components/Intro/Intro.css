@@ -224,7 +224,7 @@
     }
 }
 
-@media  screen and (max-height:810px) {
+@media  screen and (max-height:610px) {
 
     .Intro{
         display: flex;
