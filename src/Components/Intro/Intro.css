@@ -1,6 +1,7 @@
 #intro{
-    margin: 0px 280px 0px 280px;
+    margin: 0px 300px 0px 300px;
 }
+
 .Intro{
     display: flex;
     justify-content: center;
@@ -16,8 +17,7 @@
 }
 
 .info h5{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px 0px 15px 0px;
     font-size: 17px;
     color: #4D4D4D;
 }
@@ -44,7 +44,6 @@
     margin: auto;
     text-align: center;
     font-size: 15px;
-    position: relative;
 }
 
 .more-info img{
@@ -92,6 +91,7 @@
     }
 
     .more-info img{
+        width: 17px;
         margin-bottom: 150px;
     }
 
@@ -110,14 +110,9 @@
     .more-info{
         font-size: 17px;
     }
-
-    .more-info img{
-        width: 17px;
-    }
-
 }
 
-@media  screen and (max-width:1300px) {
+@media screen and (max-width:1300px) {
 
     #intro{
         margin: 0px 180px 0px 180px;
@@ -128,7 +123,7 @@
     }
 }
 
-@media  screen and (max-width:1200px) {
+@media screen and (max-width:1200px) {
 
     #intro{
         margin: 0px 130px 0px 130px;
@@ -139,11 +134,11 @@
     }
 }
 
-@media  screen and (max-width:1024px) {
+/* @media  screen and (max-width:1024px) {
     .Intro{
         height: 30vh;
     }
-}
+} */
 
 @media  screen and (max-width:1000px) {
 
@@ -163,19 +158,18 @@
     }
 }
 
-@media  screen and (max-width:900px) {
+@media  screen and (max-width:810px) {
 
     .info h5{
-        font-size: 15px;
+        font-size: 14px;
     }
     
     .info h1{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .image img{
-        width: 140px;
-        height: auto;
+        width: 125px;
     }
 
     .more-info{
@@ -183,34 +177,22 @@
     }
 }
 
-@media  screen and (max-width:810px) {
-
-    .info h5{
-        font-size: 14px;
-        width: 100%;
-    }
-
-    .info h1{
-        font-size: 25px;
-    }
-}
-
-@media  screen and (max-width:755px) {
+@media  screen and (max-width:768px) {
 
     #l{
         display: block;
     }
 }
 
-@media  screen and (max-width:600px) {
+@media  screen and (max-width:640px) {
 
     .Intro{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 60vh;
         margin-top: 30%;
+        margin-bottom: 15%;
     }
 
     .info h5{
@@ -224,7 +206,7 @@
     }
 }
 
-@media screen and (max-device-height: 810px) {
+/* @media screen and (max-device-height: 810px) {
 
     .Intro{
         display: flex;
@@ -244,15 +226,15 @@
 @media  screen and (max-height:410px) {
 
     .Intro{
-        /* display: flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 60vh; */
+        height: 60vh; 
         margin-top: 50%;
         margin-bottom: 30%;
     }
-}
+} */
 
 @media  screen and (max-width:450px) {
 

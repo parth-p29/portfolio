@@ -7,7 +7,7 @@
 }
 
 .title{
-  margin-left: 280px;
+  margin-left: 300px;
 }
 
 .title h1{
@@ -45,7 +45,7 @@
 }
 
 @media  screen and (min-width:1650px) {
-  
+
   .title h1{
     margin: 120px 0px 25px 0px;
     font-size: 37px;
@@ -70,11 +70,15 @@
     align-items: center;
     justify-content: center;
   }
-}
 
+  .exp{
+    margin-bottom: 0;
+  }
+}
+/* 
 @media  screen and (max-width:450px) {
 
   .exp{
     margin-bottom: 50px;
   }
-}
+} */
