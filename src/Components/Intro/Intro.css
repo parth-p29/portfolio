@@ -1,5 +1,5 @@
 #intro{
-    margin: 0px 300px 0px 300px;
+    margin: 0px 20% 0px 20%;
 }
 
 .Intro{
@@ -13,7 +13,7 @@
 .image img{
     width: 160px;
     height: auto;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .info h5{
@@ -82,13 +82,13 @@
 
 @media  screen and (min-width:1600px) {
 
-    #intro{
+    /* #intro{
         margin: 0px 480px 0px 480px;
     }
 
     .title{
         margin-left: 480px;
-    }
+    } */
 
     .more-info img{
         width: 16px;
