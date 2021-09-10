@@ -229,6 +229,10 @@
         margin-top: 20%;
         margin-bottom: 20%;
     }
+
+    .image img{
+        margin-top: 70px;
+    }
 }
 
 @media  screen and (max-height:410px) {
@@ -242,6 +246,7 @@
         margin-top: 50%;
         margin-bottom: 30%;
     }
+
 }
 
 @media  screen and (max-width:450px) {
