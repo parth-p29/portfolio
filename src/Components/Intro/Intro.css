@@ -91,24 +91,24 @@
     }
 
     .more-info img{
-        width: 17px;
+        width: 16px;
         margin-bottom: 150px;
     }
 
     .info h1{
-        font-size: 38px;
+        font-size: 36px;
     }
 
     .info h5{
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .image img{
-        width: 165px;
+        width: 160px;
     }
 
     .more-info{
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
@@ -205,7 +205,7 @@
 @media  screen and (max-width:450px) {
 
     #intro{
-        margin: 60px 30px 0px 30px;
+        margin: 130px 30px 10px 30px;
     }
 }
 
