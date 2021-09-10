@@ -5,6 +5,7 @@
     height: 15vh;
     margin-bottom: 60px;
 }
+
 .logo{
     width: 50%;
 }
@@ -39,10 +40,12 @@
         align-items: center;
         background-color: black;
     }
+
     .links a{
         color: white;
         opacity: 0.88;
     }
+
     .logo img{
         display: none;
     } 
@@ -60,6 +63,5 @@
 
     nav{
         padding: 50px 50px 0px 50px;
-
     }
 }

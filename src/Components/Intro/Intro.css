@@ -168,13 +168,16 @@
     .info h5{
         font-size: 15px;
     }
+    
     .info h1{
         font-size: 30px;
     }
+
     .image img{
         width: 140px;
         height: auto;
     }
+
     .more-info{
         font-size: 13px;
     }
@@ -186,6 +189,7 @@
         font-size: 14px;
         width: 100%;
     }
+
     .info h1{
         font-size: 25px;
     }
@@ -208,9 +212,11 @@
         height: 60vh;
         margin-top: 30%;
     }
+
     .info h5{
         font-size: 13px;
     }
+
     .image img{
         width: 120px;
         height: auto;
@@ -246,7 +252,6 @@
         margin-top: 50%;
         margin-bottom: 30%;
     }
-
 }
 
 @media  screen and (max-width:450px) {
