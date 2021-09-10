@@ -145,10 +145,19 @@
     }
 }
 
-@media  screen and (max-width:1024px) {
+@media  screen and (max-width:1064px) {
 
     .title{
         margin-left: 0px;
+    }
+
+    .Intro{
+        height: 45vh;
+        margin: 50px 0px 50px 0px;
+    }
+
+    #l{
+        display: block;
     }
 }
 
@@ -168,13 +177,6 @@
 
     .more-info{
         font-size: 13px;
-    }
-}
-
-@media  screen and (max-width:788px) {
-
-    #l{
-        display: block;
     }
 }
 
