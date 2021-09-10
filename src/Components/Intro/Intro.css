@@ -13,7 +13,7 @@
 .image img{
     width: 160px;
     height: auto;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .info h5{
@@ -80,7 +80,7 @@
     }
   }
 
-@media  screen and (min-width:1500px) {
+@media  screen and (min-width:1600px) {
 
     #intro{
         margin: 0px 480px 0px 480px;
