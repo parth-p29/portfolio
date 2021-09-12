@@ -13,7 +13,7 @@ const Nav = () => {
             <div className="logo">
 
                 <a href="/">
-                    <img src={logo} />
+                    PARTH
                 </a>
                 
             </div>
@@ -21,11 +21,11 @@ const Nav = () => {
             <div className="links" >
                 
                 <Link to="footer" smooth={true} duration={1000} className="slink">
-                    Contact.
+                    Contact
                 </Link>
 
                 <a href={resume} target="_blank">
-                    Resume.
+                    Resume
                 </a>
 
             </div>

@@ -1,31 +1,40 @@
- nav{
+nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 15vh;
-    margin-bottom: 60px;
+    height: 6rem;
+    z-index: 1000;
+    font-weight: 200;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
 }
 
 .logo{
     width: 50%;
 }
 
+.logo a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+    margin: 2rem
+}
+
 .links a{
     text-decoration: none;
-    color: #4D4D4D;
-    font-size: 15px;
-    margin: 30px;
+    color: white;
+    font-size: 0.9em;
+    margin: 2rem;
+    letter-spacing: 2px;
 }
 
 .links a:hover{
-    border-bottom: 2px solid #A9C4FD;
+    border-bottom: 1px solid white;
     padding-bottom: 3px;
 }   
-
-.logo img{
-    width: 45px;
-    height: 45px;
-} 
 
 .slink{
     cursor: pointer;
@@ -38,30 +47,22 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: black;
+        height: 8rem;
     }
 
-    .links a{
-        color: white;
-        opacity: 0.88;
-    }
-
-    .logo img{
-        display: none;
+    .logo{
+        text-align: center;
+        margin-bottom: 1rem;
     } 
-}
 
-@media  screen and (max-width:1024px) {
-
-    nav{
-        height: 10vh;
-        margin-bottom: 10px;
+    .logo a {
+        letter-spacing: 5px;
+        font-size: 1.2em;
     }
-}
-
-@media  screen and (max-height:410px) {
-
-    nav{
-        padding: 50px 50px 0px 50px;
+    
+    .links a{
+        text-decoration: none;
+        color: white;
+        font-size: 0.85em;
     }
 }
