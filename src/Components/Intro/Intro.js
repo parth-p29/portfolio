@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 import arrow from '../../Assests/down-arrow.png';
 import Nav from '../Nav/Nav';
 
-// import video from './video3.mp4';
+import video from './video3.mp4';
 
 const Intro = () => {
 
@@ -75,7 +75,7 @@ const Intro = () => {
         <section className="showcase">
             <Nav/>
         
-            {/* <video src={video} muted loop autoPlay></video>  */}
+            <video src={video} muted loop autoPlay></video>  
 
             <div class="overlay"></div>
 
