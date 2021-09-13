@@ -2,24 +2,24 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 6rem;
-    z-index: 1000;
+    height: 4.5rem;
+    z-index: 400;
     font-weight: 200;
     position: fixed;
     width: 100%;
-    background-color: black;
-    opacity: 0.7;
+    transition: background 0.5s ease;
 }
 
 .logo{
     width: 50%;
 }
 
+
 .logo a {
     color: white;
     text-decoration: none;
-    letter-spacing: 5px;
-    font-size: 1.5em;
+    letter-spacing: 2.5px;
+    font-size: 1.1em;
     margin: 2rem
 }
 
@@ -28,7 +28,6 @@ nav{
     color: white;
     font-size: 0.9em;
     margin: 2rem;
-    letter-spacing: 2px;
 }
 
 .links a:hover{

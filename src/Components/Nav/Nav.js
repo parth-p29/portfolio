@@ -1,38 +1,60 @@
 import './Nav.css';
-import logo from '../../Assests/parthlogo.jpg';
 import {Link} from 'react-scroll';
-
 import resume from './Parth_Patel_Resume.pdf'
 
-const Nav = () => {
+import { Component } from 'react';
 
-    return (
+class Nav extends Component{
 
-        <nav id="nav">
+    state = {
+        color: 'none',
+        opacity: '1'
+    }
 
-            <div className="logo">
+    listenScrollEvent = (x) => {
 
-                <a href="/">
-                    PARTH
-                </a>
-                
-            </div>
+        if (window.scrollY > 400) {
+            this.setState({color: "black", opacity: "0.63"})
+        }
 
-            <div className="links" >
-                
-                <Link to="footer" smooth={true} duration={1000} className="slink">
-                    Contact
-                </Link>
+        else if (window.scrollY <= 10){
+            this.setState({color: 'none', opacity: "1"})
+        }
+    }
 
-                <a href={resume} target="_blank">
-                    Resume
-                </a>
+    componentDidMount() {
+        window.addEventListener('scroll', this.listenScrollEvent)
+    }
 
-            </div>
+    render() {
+        return (
 
-        </nav>
+            <nav id="nav" style={{background: this.state.color, opacity: this.state.opacity}}>
 
-    );
+                <div className="logo">
+
+                    <a href="/">
+                        PARTH PATEL
+                    </a>
+                    
+                </div>
+
+                <div className="links" >
+                    
+                    <Link to="footer" smooth={true} duration={1000} className="slink">
+                        Contact
+                    </Link>
+
+                    <a href={resume} target="_blank">
+                        Resume
+                    </a>
+
+                </div>
+
+            </nav>
+
+        );
+    }
 
 }
 
