@@ -59,8 +59,8 @@
 }
 
 .experience img{
-    width: 15em;
-    border-radius: 1em;
+    width: 16em;
+    border-radius: 0.9em;
 }
 
 .info{
@@ -75,14 +75,14 @@
 .e-title{
     font-weight: 500;
     letter-spacing: 2px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: grey;
     opacity: 0.7;
 }
 
 .role{
-    width: 80%;
-    font-size: 1.5em;
+    width: 95%;
+    font-size: 1.7em;
     opacity: 0.7;
     font-weight: 600;
 }
@@ -94,7 +94,7 @@
 
 .tags h5{
     margin: 0.7rem 1.3rem 0.7rem 0;
-    font-size: 0.62em;
+    font-size: 0.672em;
     background-color: #09193D;
     color: white;
     padding: 0.5em 1.2em 0.5em 1.2em;
@@ -104,7 +104,8 @@
 
 .description{
     font-weight: 300;
-    font-size: 1em;
+    font-size: 0.95em;
+    width: 85%;
 }
 
 .e-link{
@@ -112,12 +113,12 @@
     color: grey;
     opacity: 0.9;
     margin-top: 0.9rem;
-    font-size: 1em;
+    font-size: 1.08em;
     font-weight: 600;
     transition: color 0.5s ease, transform 0.5s ease;
 }
 
 .e-link:hover{
-    transform: translateX(0.5em);
-    color: rgb(0, 0, 0);
+    transform: translateX(0.6em);
 }
+

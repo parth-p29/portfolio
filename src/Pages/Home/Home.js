@@ -12,6 +12,16 @@ import companion from '../../Assests/Companion.jpg';
 import fmb from '../../Assests/fmb.png';
 import yv from '../../Assests/yearview.png';
 
+
+const CeridianTitle = "Ceridian Software Developer";
+const CeridianRole = "Winter 2021 Internship with Ceridian on the Architecture team";
+const CeridianS1 = "Backend";
+const CeridianS2 = "Architecture";
+const CeridianS3 = "DevOps";
+const CeridianDesc = "Built multiple APIs and designed backend servies to help the company shift towards a micro-service architecture";
+const CeridianColor = "#09193D";
+const CeridianImage = Ceridianimg;
+
 const Home = () => {
 
     return (
@@ -23,7 +33,7 @@ const Home = () => {
             </div> 
 
             <div className="exp">
-                <Experience path={reebeeimg} name="Reebee Internship" link="/reebee" color="#008CFF" width="105px"/>
+                <Experience title={CeridianTitle} role={CeridianRole} s1={CeridianS1} s2={CeridianS2} s3={CeridianS3} desc={CeridianDesc} color={CeridianColor} image={CeridianImage} />
             </div>
 {/* 
             <div className="title">

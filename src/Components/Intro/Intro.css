@@ -27,13 +27,13 @@
 .text h1{
     font-size: 5em;
     font-weight: 600;
-    margin: 0.6rem 0 3.5rem 0;
+    margin: 0 0 3.5rem 0;
     letter-spacing: 5px;
 }
 
 .text h2{
     font-size: 1.6em;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-weight: 500;
 }
 

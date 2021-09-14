@@ -45,16 +45,17 @@ nav{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 8rem;
+        height: 6rem;
     }
 
     .logo{
         text-align: center;
-        margin-bottom: 1rem;
+        margin-bottom: 0.2rem;
+        width: 100%;
     } 
 
     .logo a {
-        letter-spacing: 5px;
+        letter-spacing: 2px;
         font-size: 1.2em;
     }
     
