@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 import arrow from '../../Assests/down-arrow.png';
 import Nav from '../Nav/Nav';
 
-import video from './video.mp4';
+import video from './blue15.mp4';
 
 const Intro = () => {
 
