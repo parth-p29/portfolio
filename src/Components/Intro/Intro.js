@@ -4,8 +4,8 @@ import Typewriter from 'typewriter-effect';
 import arrow from '../../Assests/down-arrow.png';
 import Nav from '../Nav/Nav';
 
-import video from './blue15.mp4';
-import poster from './poster.jpg';
+import video from './video.mp4';
+import poster from './black.png';
 
 const Intro = () => {
 
