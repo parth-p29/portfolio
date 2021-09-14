@@ -53,13 +53,17 @@
 
 .experience{
     display: flex;
-    justify-content: center;
-    width: 80%;
-    margin: 3rem;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+    border: 3px solid #EDEDED;
+    padding: 2em 0.5em 2em 0.5em;
+    border-radius: 20px;
+    margin: 0rem 4rem 3rem 3rem;
 }
 
 .experience img{
-    width: 16em;
+    width: 14em;
     border-radius: 0.9em;
 }
 
@@ -69,14 +73,13 @@
     align-items: flex-start;
     justify-content: space-evenly;
     width: 50%;
-    margin-right: 50px;
 }
 
 .e-title{
     font-weight: 500;
     letter-spacing: 2px;
     font-size: 1.3em;
-    color: grey;
+    color: rgba(90, 90, 90, 0.582);
     opacity: 0.7;
 }
 
@@ -105,7 +108,6 @@
 .description{
     font-weight: 300;
     font-size: 0.95em;
-    width: 85%;
 }
 
 .e-link{

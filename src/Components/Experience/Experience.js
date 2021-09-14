@@ -31,7 +31,7 @@ const Experience = (props) => {
                     {props.desc}
                 </p>
 
-                <a href="/ceridian" className="e-link">
+                <a href={props.path} className="e-link">
                     Check it out &#8594;
                 </a>
             </div>
