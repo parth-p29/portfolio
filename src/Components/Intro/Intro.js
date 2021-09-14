@@ -5,6 +5,7 @@ import arrow from '../../Assests/down-arrow.png';
 import Nav from '../Nav/Nav';
 
 import video from './blue15.mp4';
+import poster from './poster.jpg';
 
 const Intro = () => {
 
@@ -75,7 +76,9 @@ const Intro = () => {
         <section className="showcase">
             <Nav/>
         
-            <video src={video} playsinline muted loop autoPlay></video>  
+            <video playsInline poster={poster} muted loop autoPlay>
+                <source src={video}></source>    
+            </video>  
 
             <div class="overlay"></div>
 
