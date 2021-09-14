@@ -13,7 +13,7 @@ class Nav extends Component{
 
     listenScrollEvent = (x) => {
 
-        if (window.scrollY > 400) {
+        if (window.scrollY > 50) {
             this.setState({color: "black", opacity: "0.63"})
         }
 

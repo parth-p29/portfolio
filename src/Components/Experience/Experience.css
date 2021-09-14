@@ -1,4 +1,4 @@
-.company{
+/* .company{
     width: 50%;
     height: 180px;
     display: flex;
@@ -49,4 +49,75 @@
         width: 70%;
         height: 190px;
     }
+} */
+
+.experience{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 3rem;
+}
+
+.experience img{
+    width: 15em;
+    border-radius: 1em;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-right: 50px;
+}
+
+.e-title{
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    color: grey;
+    opacity: 0.7;
+}
+
+.role{
+    width: 80%;
+    font-size: 1.5em;
+    opacity: 0.7;
+    font-weight: 600;
+}
+
+.tags{
+    display: flex;
+    width: 100%;
+}
+
+.tags h5{
+    margin: 0.7rem 1.3rem 0.7rem 0;
+    font-size: 0.62em;
+    background-color: #09193D;
+    color: white;
+    padding: 0.5em 1.2em 0.5em 1.2em;
+    border-radius: 2em;
+    font-weight: 400;
+}
+
+.description{
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.e-link{
+    text-decoration: none;
+    color: grey;
+    opacity: 0.9;
+    margin-top: 0.9rem;
+    font-size: 1em;
+    font-weight: 600;
+    transition: color 0.5s ease, transform 0.5s ease;
+}
+
+.e-link:hover{
+    transform: translateX(0.5em);
+    color: rgb(0, 0, 0);
 }

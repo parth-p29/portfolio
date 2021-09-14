@@ -19,13 +19,11 @@ const Home = () => {
             <Intro/> 
 
             <div className="title" id ="experience">
-                    <h1 >Experience.</h1>
+                    <h1 >Work Experience</h1>
             </div> 
 
             <div className="exp">
                 <Experience path={reebeeimg} name="Reebee Internship" link="/reebee" color="#008CFF" width="105px"/>
-                <Experience path={Ceridianimg} name="Ceridian Internship" link="/ceridian" color="#09193D" width="130px"/>
-                <Experience link="/vex" path={veximg} name="Vex Robotics" color="#DA262F" width="125px"/>
             </div>
 {/* 
             <div className="title">
@@ -38,7 +36,7 @@ const Home = () => {
             </div>  */}
 
             <div className="title">
-                    <h1>Projects.</h1>
+                    <h1>Projects</h1>
             </div>
 
             

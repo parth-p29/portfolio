@@ -1,77 +1,77 @@
 .exp{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 130px;
 }
 
 .title{
-  margin-left: 300px;
+text-align: center;
 }
 
 .title h1{
-  margin: 120px 0px 25px 0px;
-  font-size: 35px;
-  color: #4D4D4D;
+margin: 120px 0px 25px 0px;
+font-size: 35px;
+color: #4D4D4D;
 }
 
 .projs{
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .proj1{
-  margin: 15px
+margin: 15px
 }
 
 .proj2{
-  margin: 15px
+margin: 15px
 }
 
 .more-projs{
-  width: 100%;
-  text-align:center;
-  margin: 50px 0px 150px 0px;
+width: 100%;
+text-align:center;
+margin: 50px 0px 150px 0px;
 }
 
 .more-projs a{
-  text-decoration: none;
-  color: #858585;
-  font-size: 15px;
-  border: 1px solid #858585;
-  padding: 15px 20px 15px 20px;
-  border-radius: 5px;
+text-decoration: none;
+color: #858585;
+font-size: 15px;
+border: 1px solid #858585;
+padding: 15px 20px 15px 20px;
+border-radius: 5px;
 }
 
 @media  screen and (min-width:1650px) {
 
-  .title h1{
-    margin: 120px 0px 25px 0px;
-    font-size: 37px;
-    color: #4D4D4D;
-  }
+.title h1{
+  margin: 120px 0px 25px 0px;
+  font-size: 37px;
+  color: #4D4D4D;
+}
 }
 
 @media  screen and (max-width:1024px) {
 
-  .title{
-    display: flex;
-    justify-content: center;
-    margin-left: 0px;
-  } 
+.title{
+  display: flex;
+  justify-content: center;
+  margin-left: 0px;
+} 
 }
 
 @media  screen and (max-width:850px) {
 
-  .projs{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+.projs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-  .exp{
-    margin-bottom: 0;
-  }
+.exp{
+  margin-bottom: 0;
+}
 }
