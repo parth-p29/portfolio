@@ -57,6 +57,11 @@
     object-fit: cover;
 }
 
+video::-webkit-media-controls-panel {
+    display: none !important;
+    opacity: 1 !important;
+}
+
  /* .overlay{
     position: absolute;
     top: 0;

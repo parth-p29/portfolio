@@ -76,8 +76,8 @@ const Intro = () => {
         <section className="showcase">
             <Nav/>
         
-            <video playsInline poster={poster} muted loop autoPlay>
-                <source src={video}></source>    
+            <video playsInline poster={poster} muted loop autoplay="autoplay">
+                <source src={video} type="video/mp4"></source>    
             </video>  
 
             <div class="overlay"></div>
