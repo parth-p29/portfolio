@@ -78,7 +78,7 @@ const Home = () => {
                 <Experience title={VexTitle} role={VexRole} s1={VexS1} s2={VexS2} s3={VexS3} desc={VexDesc} color={VexColor} image={VexImage} path={VexPath} />
             </div>  
 
-            <div className="title">
+            {/* <div className="title">
                     <h1>Projects</h1>
             </div>
 
@@ -97,11 +97,11 @@ const Home = () => {
 
                 </div>
 
-            </div>
+            </div> */}
 
             <div className="more-projs">
                 <a href="https://github.com/parth-p29?tab=repositories" target="_blank">
-                    More Projects.
+                    More Projects
                 </a>
             </div>
 

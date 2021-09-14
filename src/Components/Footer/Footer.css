@@ -1,24 +1,28 @@
 footer{
-    margin: 100px 0px 50px 0px;
+    margin: 100px 0px 0 0px;
+    background-color: rgb(0, 0, 0);
+    height: 13rem;
 }
 
 .contacts{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 3.6em 0 1em 0;
 }
 
 .contacts a{
     margin: 15px 30px 15px 30px;
     width: 20px;
     height: 20px;
-    opacity: 0.7;
 }
 
 .contacts img{
     width: 20px;
     height: 20px;
     transition: transform 0.3s ease;
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(282deg) brightness(104%) contrast(101%);
+    
 }
 
 .contacts img:hover{
@@ -29,8 +33,7 @@ footer{
     margin-top: 5px;
     margin-bottom: 80px;
     text-align: center;
-    color: black;
-    opacity: 0.7;
+    color: rgb(255, 255, 255);
 }
 
 @media  screen and (max-width:400px) {

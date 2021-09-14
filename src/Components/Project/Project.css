@@ -7,11 +7,11 @@
     transition: transform 0.3s ease, box-shadow 0.4s ease ;
 }
 .project-image{
-    width: 400px;
-    height: 370px;
+    width: 30em;
+    height: 30em;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.212);
+    border: 3px solid #EDEDED;
 }
 
 .project-container:hover{
@@ -23,9 +23,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-right: 1px solid rgba(0, 0, 0, 0.212);
-    border-left: 1px solid rgba(0, 0, 0, 0.212);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+    border-right: 3px solid #EDEDED;
+    border-left: 3px solid #EDEDED;
+    border-bottom: 3px solid #EDEDED;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 20px;
@@ -37,7 +37,7 @@
 
 .p-info p{
     padding: 5px 10px 5px 10px;
-    border: 1px solid black;
+    border: 1px solid #aaaaaa;
     border-radius: 20px;
     font-size: 10px;
     margin: 5px;
