@@ -7,7 +7,7 @@
 }
 
 .title{
-text-align: center;
+  text-align: center;
 }
 
 #experience{
@@ -15,9 +15,9 @@ text-align: center;
 }
 
 .title h1{
-margin: 6rem 0px 1.2rem 0px;
-font-size: 35px;
-color: #4D4D4D;
+  margin: 0rem 0px 1.2rem 0px;
+  font-size: 35px;
+  color: #4D4D4D;
 }
 
 .projs{
@@ -26,17 +26,17 @@ justify-content: center;
 }
 
 .proj1{
-margin: 35px
+  margin: 35px
 }
 
 .proj2{
-margin: 35px
+  margin: 35px
 }
 
 .more-projs{
-width: 100%;
-text-align:center;
-margin: 0.5rem 0 18rem 0;
+  width: 100%;
+  text-align:center;
+  margin: 0.5rem 0 18rem 0;
 }
 
 .more-projs a{
@@ -50,9 +50,9 @@ margin: 0.5rem 0 18rem 0;
   letter-spacing: 1px;
 }
 
-@media (max-width: 450px){
+@media screen and (max-width: 1024px){
 
   #experience{
-    margin-top: 2rem;
+    margin-top: 5.5rem;
   }
 }
