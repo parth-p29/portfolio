@@ -10,10 +10,6 @@
   text-align: center;
 }
 
-.a{
-  margin-top: 100px;
-}
-
 .title h1{
   margin: 0rem 0rem 1.2rem 0rem;
   font-size: 2.3em;
@@ -50,13 +46,13 @@ justify-content: center;
   letter-spacing: 1px;
 }
 
-/* @media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px){
 
-  #experience{
-    margin-top: 5rem;
-  }
+   #experience{
+    margin-top: 3.4rem;
+  } 
 
   .title h1{
     font-size: 1.75em;
   }
-} */
+} 

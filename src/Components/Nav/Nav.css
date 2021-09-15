@@ -55,13 +55,11 @@ nav{
     } 
 
     .logo a {
-        letter-spacing: 2px;
-        font-size: 1.2em;
+        font-size: 0.9em;
     }
     
     .links a{
-        text-decoration: none;
-        color: white;
-        font-size: 0.85em;
+        font-size: 0.75em;
+        margin: 2.5em;
     }
 }
