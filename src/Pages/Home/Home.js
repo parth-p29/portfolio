@@ -59,7 +59,7 @@ const Home = () => {
         <>
             <Intro/> 
 
-            <div className="title" id="experience">
+            <div className="title a" id="experience">
                     <h1>Work Experience</h1>
             </div> 
 

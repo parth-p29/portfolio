@@ -10,13 +10,13 @@
   text-align: center;
 }
 
-#experience{
-  margin-top: 9.5rem;
+.a{
+  margin-top: 9rem;
 }
 
 .title h1{
-  margin: 0rem 0px 1.2rem 0px;
-  font-size: 35px;
+  margin: 0rem 0rem 1.2rem 0rem;
+  font-size: 2.3em;
   color: #4D4D4D;
 }
 
@@ -54,5 +54,12 @@ justify-content: center;
 
   #experience{
     margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 450px){
+
+  #experience{
+    margin-top: 1rem;
   }
 }
