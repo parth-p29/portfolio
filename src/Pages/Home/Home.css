@@ -50,13 +50,6 @@ justify-content: center;
   letter-spacing: 1px;
 }
 
-@media screen and (max-width: 1024px){
-
-  #experience{
-    margin-top: 3rem;
-  }
-}
-
 @media screen and (max-width: 450px){
 
   #experience{
