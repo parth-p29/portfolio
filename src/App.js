@@ -5,6 +5,7 @@ import Ceridian from './Pages/Ceridian/Ceridian';
 import Reebee from './Pages/Reebee/Reebee';
 import Vex from './Pages/Vex/Vex';
 import Home from './Pages/Home/Home';
+import Waterloop from './Pages/Waterloop/Waterloop';
 import Footer from './Components/Footer/Footer';
 
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
@@ -18,20 +19,18 @@ function App() {
 		<Nav/>
 
 		<Switch>
-
 			<Route path="/" exact component={Home} />
 			<Route path="/ceridian" component={Ceridian} />
 			<Route path="/reebee" component={Reebee} />
 			<Route path="/vex" component={Vex} />
-			
+			<Route path="/waterloop" component={Waterloop} />
 		</Switch>
 
-		<Footer />
+		<Footer/>
 
     </BrowserRouter>
 
   )
-
 }
 
 export default App;
