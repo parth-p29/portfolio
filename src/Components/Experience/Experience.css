@@ -1,7 +1,7 @@
 .experience{
     display: flex;
     justify-content: space-around;
-    width: 70%;
+    width: 60%;
     align-items: center;
     border: 3px solid #EDEDED;
     padding: 3.4em 0.2em 3.4em 0.2em;
@@ -69,6 +69,13 @@
 
 .e-link:hover{
     transform: translateX(0.6em);
+}
+
+@media (min-width: 1600px){
+
+    .experience {
+        width: 55%;
+    }
 }
 
 @media (max-width: 1000px){
@@ -157,7 +164,7 @@
 
     .experience{
         margin: auto;
-        width: 85%;
+        width: 80%;
         margin-bottom: 2rem;
     }
 
