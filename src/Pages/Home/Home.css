@@ -11,7 +11,7 @@
 }
 
 .a{
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 .title h1{
@@ -61,5 +61,9 @@ justify-content: center;
 
   #experience{
     margin-top: 5rem;
+  }
+
+  .title h1{
+    font-size: 1.75em;
   }
 }
