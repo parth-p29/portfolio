@@ -3,15 +3,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 130px;
+  margin: 1rem 0 5rem 0;
 }
 
 .title{
 text-align: center;
 }
 
+#experience{
+  margin-top: 12rem;
+}
+
 .title h1{
-margin: 120px 0px 25px 0px;
+margin: 6rem 0px 1.2rem 0px;
 font-size: 35px;
 color: #4D4D4D;
 }
@@ -44,4 +48,11 @@ margin: 0.5rem 0 18rem 0;
   border-radius: 0.5em;
   font-weight: 400;
   letter-spacing: 1px;
+}
+
+@media (max-width: 450px){
+
+  .title h1{
+    margin: 80px 0px 25px 0px;
+  }
 }
