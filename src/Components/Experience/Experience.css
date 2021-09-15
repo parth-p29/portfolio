@@ -71,3 +71,125 @@
     transform: translateX(0.6em);
 }
 
+@media (max-width: 1000px){
+
+    .experience img{
+        width: 10.3em;
+    }
+
+    .e-title{
+        font-size: 0.77em;
+    }
+
+    .role{
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .tags h5{
+        margin: 0.7rem 0.7rem 0.7rem 0;
+        font-size: 0.5em;
+    }
+
+    .description{
+        font-size: 0.75em;
+    }
+
+    .e-link{
+        font-size: 0.85em;
+    }
+}
+
+@media (max-width: 650px){
+
+    .experience{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 66%;
+        padding: 1.5em 0em 1.5em 0em;
+        height: 40rem;
+    }
+
+    .info{
+        width:80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .experience img{
+        width: 11.3em;
+    }
+
+    .e-title{
+        width: 100%;
+        text-align: center;
+        font-size: 0.9em;
+        margin-bottom: 1rem;
+    }
+
+    .role{
+        width: 100%;
+        font-size: 1.25em;
+    }
+
+    .tags{
+        margin: 1rem 0 1rem 0;
+    }
+
+    .tags h5{
+        font-size: 0.7em;
+    }
+
+    .description{
+        font-size: 0.85em;
+        margin: 0.3rem 0 0.5rem 0;
+    }
+
+    .e-link{
+        width: 100%;
+        text-align: center;
+        font-size: 0.95em;
+    }
+}
+
+ @media (max-width: 620px){
+
+    .experience{
+        margin: auto;
+        width: 85%;
+        margin-bottom: 2rem;
+    }
+
+    .tags{
+        margin: 0.3rem 0 0.3rem 0;
+    }
+
+    .tags h5{
+        font-size: 0.55em;
+    }
+
+    .experience img{
+        width: 14em;
+    }
+
+    .description{
+        font-size: 0.78em;
+        text-align: left;
+    }
+
+    .e-title{
+        font-size: 0.85em;
+        margin-bottom: 0.5rem;
+        text-align: left;
+    }
+
+    .role{
+        font-size: 1.1em;
+        text-align: left;
+    }
+
+    .e-link{
+        text-align: left;
+    }
+} 

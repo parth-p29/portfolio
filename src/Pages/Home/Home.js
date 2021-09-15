@@ -27,7 +27,7 @@ const ReebeeTitle = "Reebee Backend Software Engineer";
 const ReebeeRole = "Fall 2021 Internship with Reebee on the Backend Team";
 const ReebeeS1 = "Backend";
 const ReebeeS2 = "Cloud";
-const ReebeeS3 = "Database Migration";
+const ReebeeS3 = "Database";
 const ReebeeDesc = "Optimized APIs to manage millions of daily requests and helped transfer logs from AWS to SnowflakeDB";
 const ReebeeColor = "#008CFF";
 const ReebeeImage = reebeeimg;
@@ -45,7 +45,7 @@ const WaterloopPath = "/waterloop";
 
 const VexTitle = "Vex Robotics Team 356 Developer/Mentor";
 const VexRole = "Competed in provincial to global level robotics competitions";
-const VexS1 = "Robotics (C++)";
+const VexS1 = "Robotics";
 const VexS2 = "Firmware";
 const VexS3 = "Leadership";
 const VexDesc = "Developed new robot functionalities and mentored members on team processess";
@@ -99,11 +99,11 @@ const Home = () => {
 
             </div> */}
 
-            <div className="more-projs">
+            {/* <div className="more-projs">
                 <a href="https://github.com/parth-p29?tab=repositories" target="_blank">
                     More Projects
                 </a>
-            </div>
+            </div> */}
 
         </>
     );

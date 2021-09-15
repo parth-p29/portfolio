@@ -32,47 +32,16 @@ margin: 35px
 .more-projs{
 width: 100%;
 text-align:center;
-margin: 50px 0px 150px 0px;
+margin: 0.5rem 0 18rem 0;
 }
 
 .more-projs a{
   text-decoration: none;
-  color: #a1a1a177;
+  color: #3a3a3a77;
   font-size: 1.3em;
-
-  border: 3px solid #EDEDED;
+  border: 2px solid #c4c4c4;
   padding: 15px 20px 15px 20px;
   border-radius: 0.5em;
-}
-
-@media  screen and (min-width:1650px) {
-
-.title h1{
-  margin: 120px 0px 25px 0px;
-  font-size: 37px;
-  color: #4D4D4D;
-}
-}
-
-@media  screen and (max-width:1024px) {
-
-.title{
-  display: flex;
-  justify-content: center;
-  margin-left: 0px;
-} 
-}
-
-@media  screen and (max-width:850px) {
-
-.projs{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.exp{
-  margin-bottom: 0;
-}
+  font-weight: 400;
+  letter-spacing: 1px;
 }
