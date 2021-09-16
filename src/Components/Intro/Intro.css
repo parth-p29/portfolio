@@ -123,13 +123,6 @@ video::-webkit-media-controls-panel {
     }
 }
 
-@media (max-width: 600px) {
-
-    .showcase{
-        margin-bottom: 2.5rem;
-    }
-}
-
 @media (max-width: 630px) {
 
     .text h1{
