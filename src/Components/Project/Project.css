@@ -8,8 +8,8 @@
 }
 
 .project-image{
-    width: 32em;
-    height: 30em;
+    width: 30em;
+    height: 28em;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
     border: 3px solid #EDEDED;
@@ -29,7 +29,7 @@
     border-bottom: 3px solid #EDEDED;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
-    padding: 1.8em;
+    padding: 1.4em;
 }
 
 .p-info h3{
@@ -56,6 +56,17 @@
     height: 100%;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
+}
+
+@media (min-width: 1600px){
+    .project-image{
+        width: 32em;
+        height: 30em;
+    }
+
+    .p-info{
+        padding: 1.8em;
+    }
 }
 
 @media (max-width:1200px) {
