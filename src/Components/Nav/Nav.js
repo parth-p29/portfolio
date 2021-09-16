@@ -41,6 +41,10 @@ class Nav extends Component{
 
                 <div className="links" >
                     
+                    <a href="/about" target="_blank">
+                        About
+                    </a>
+
                     <Link to="footer" smooth={true} duration={1000} className="slink">
                         Contact
                     </Link>
