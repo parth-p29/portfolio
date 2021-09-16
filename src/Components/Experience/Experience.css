@@ -5,8 +5,16 @@
     align-items: center;
     border: 3px solid #EDEDED;
     padding: 3.4em 0.2em 3.4em 0.2em;
-    border-radius: 20px;
+    border-radius: 1em;
     margin: 0rem 4rem 3rem 3rem;
+    transition: transform 0.45s ease, box-shadow 0.45s ease ;
+    text-decoration: none;
+    color:black;
+}
+
+.experience:hover{
+    box-shadow: 13px 14px 13px -12px rgba(97,97,97,1);  
+    transform: translateY(-10px);
 }
 
 .experience img{

@@ -22,7 +22,7 @@ function App() {
 			<Route path="/" exact component={Home} />
 			<Route path="/ceridian" component={Ceridian} />
 			<Route path="/reebee" component={Reebee} />
-			<Route path="/vex" component={Vex} />
+			{/* <Route path="/vex" component={Vex} /> */}
 			<Route path="/waterloop" component={Waterloop} />
 		</Switch>
 

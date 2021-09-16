@@ -1,22 +1,23 @@
 .project-container{
     text-decoration: none;
     color: black;
-    margin-bottom: 70px;
-    border-radius: 10px;
+    margin-bottom: 4rem;
+    border-radius: 1em;
     display: block;
-    transition: transform 0.3s ease, box-shadow 0.4s ease ;
+    transition: transform 0.45s ease, box-shadow 0.45s ease ;
 }
+
 .project-image{
-    width: 30em;
+    width: 32em;
     height: 30em;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
     border: 3px solid #EDEDED;
 }
 
 .project-container:hover{
     transform: translateY(-10px);
-    box-shadow: 13px 14px 13px -12px rgba(97,97,97,1);  
+    box-shadow: 13px 14px 13px -12px rgba(97,97,97,1);
 }
 
 .p-info{
@@ -26,12 +27,13 @@
     border-right: 3px solid #EDEDED;
     border-left: 3px solid #EDEDED;
     border-bottom: 3px solid #EDEDED;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 20px;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding: 1.8em;
 }
 
 .p-info h3{
+    font-size: 1.4em;
     color: #858585;
 }
 
@@ -39,8 +41,8 @@
     padding: 5px 10px 5px 10px;
     border: 1px solid #aaaaaa;
     border-radius: 20px;
-    font-size: 10px;
-    margin: 5px;
+    font-size: 0.8em;
+    margin: 0.5rem;
     opacity: 0.4;
 }
 
@@ -52,15 +54,15 @@
 .project-container img{
     width: 100%;
     height: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 }
 
-@media  screen and (max-width:380px) {
+@media (max-width:1200px) {
 
     .project-image{
-        width: 300px;
-        height: 270px;
+        width: 28em;
+        height: 26em;
     }
 
     .p-info{
@@ -69,4 +71,44 @@
         justify-content: space-evenly;
         align-items: center;
     }
-  }
+}
+
+@media (max-width:1000px) {
+
+    .project-image{
+        width: 24em;
+        height: 22em;
+    }
+
+    .p-info{
+        padding: 1.5em;
+    }
+}
+
+@media (max-width:900px) {
+
+    .project-image{
+        width: 24em;
+        height: 22em;
+    }
+
+    .p-info{
+        padding: 1.5em;
+    }
+
+    .project-container{
+        margin-bottom: 1.5rem;
+    }
+}
+
+ @media (max-width:830px) {
+
+    .project-image{
+        width: 20em;
+        height: 18em;
+    }
+
+    .p-info{
+        padding: 1em;
+    }
+} 

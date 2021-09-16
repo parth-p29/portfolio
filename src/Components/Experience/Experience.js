@@ -3,7 +3,7 @@ import Ceridianimg from '../../Assests/CeridianLogo.jpg'
 const Experience = (props) => {
 
     return (
-        <section className="experience">
+        <a href={props.path} className="experience">
             <div className="info">
                 {/* <h3 className="e-title">Ceridian Software Developer</h3> */}
                 <h3 className="e-title">{props.title}</h3>
@@ -40,10 +40,10 @@ const Experience = (props) => {
                 <img src={Ceridianimg} />
             </div> */}
 
-            <div className="image">
+            <a className="image">
                 <img src={props.image} />
-            </div>
-        </section>
+            </a>
+        </a>
     );
 }
 

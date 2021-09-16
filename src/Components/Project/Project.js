@@ -6,9 +6,7 @@ const Project = (props) => {
         <a href={props.link} className="project-container" target="_blank">
 
             <div className="project-image">
-
                 <img src={props.image} /> 
-
             </div>
 
             <div className="p-info">
@@ -20,10 +18,8 @@ const Project = (props) => {
                     <p>{props.s3}</p>
                 </div>
             </div>
-
         </a>
     );
-
 }
 
 export default Project;

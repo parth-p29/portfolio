@@ -12,37 +12,37 @@
 
 .title h1{
   margin: 0rem 0rem 1.2rem 0rem;
-  font-size: 2.3em;
+  font-size: 2.6em;
   color: #4D4D4D;
 }
 
 .projs{
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .proj1{
-  margin: 35px
+  margin-right: 2rem;
 }
 
 .proj2{
-  margin: 35px
-}
+  margin-left: 2rem;
+} 
 
 .more-projs{
   width: 100%;
   text-align:center;
-  margin: 0.5rem 0 18rem 0;
+  margin: 1.5rem 0 13rem 0;
 }
 
 .more-projs a{
   text-decoration: none;
   color: #3a3a3a77;
-  font-size: 1.3em;
-  border: 2px solid #c4c4c4;
+  font-size: 1em;
+  border: 1.2px solid #c4c4c4;
   padding: 15px 20px 15px 20px;
-  border-radius: 0.5em;
-  font-weight: 400;
+  border-radius: 0.3em;
+  font-weight: 300;
   letter-spacing: 1px;
 }
 
@@ -56,3 +56,37 @@ justify-content: center;
     font-size: 1.75em;
   }
 } 
+
+@media (max-width:900px) {
+
+  .proj1{
+    margin-right: 0rem;
+  }
+  
+  .proj2{
+    margin-left: 0rem;
+  } 
+
+  .projs{
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width:600px) {
+
+  .projs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .proj1{
+    margin-right: 0;
+  }
+  
+  .proj2{
+    margin-left: 0;
+  }
+}
