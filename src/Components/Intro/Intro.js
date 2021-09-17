@@ -46,7 +46,9 @@ console.log(iOSSafari);
 class Intro extends Component{
 
     state = {
-        marginb: '6.5rem'
+        marginb: '6.5rem',
+        display: 'block',
+        vopacity: '0'
     }
 
     listenLoadEvent = (x) => {
@@ -61,11 +63,11 @@ class Intro extends Component{
 
         
         if (iOSSafari) {
-            this.setState({marginb: "0.2rem"})
+            this.setState({marginb: "0.5rem", display: 'none', vopacity: '1'})
         }
 
         else{
-            this.setState({marginb: "6.5rem"})
+            this.setState({marginb: "6.5rem", display: 'block', vopacity: '0'})
         }
     }
 
@@ -141,11 +143,11 @@ class Intro extends Component{
             <section className="showcase" style={{marginBottom: this.state.marginb}}>
                 <Nav/>
             
-                <video playsInline poster={poster} muted loop autoplay="autoplay">
+                <video playsInline poster={poster} muted loop autoplay="autoplay" style={{display: this.state.display}}>
                     <source src={video} type="video/mp4"></source>    
                 </video>  
 
-                <div class="overlay"></div>
+                <div class="overlay" style={{opacity: this.state.vopacity}}></div>
 
                 <div class="text">
                     <h2>SOFTWARE ENGINEER</h2>
