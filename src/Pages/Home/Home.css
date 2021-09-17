@@ -1,3 +1,6 @@
+* {-webkit-padding-start: 0px;}
+* {-webkit-margin-start: 0px;}
+
 .exp{
   display: flex;
   flex-direction: column;
