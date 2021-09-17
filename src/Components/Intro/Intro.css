@@ -8,7 +8,7 @@
 }
 
 .showcase{
-    min-height: 100vh;
+    height: 100vh;
     min-height: -webkit-fill-available;
     z-index: 2;
     color: rgb(253, 253, 253);
