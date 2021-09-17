@@ -72,7 +72,7 @@ class Intro extends Component{
     }
 
     componentDidMount() {
-        window.addEventListener('load', this.listenLoadEvent)
+        window.addEventListener('scroll', this.listenLoadEvent)
     }
 
     render() {
@@ -143,11 +143,11 @@ class Intro extends Component{
             <section className="showcase" style={{marginBottom: this.state.marginb}}>
                 <Nav/>
             
-                <video playsInline poster={poster} muted loop autoplay="autoplay" style={{display: this.state.display}}>
+                <video playsInline poster={poster} muted loop autoplay="autoplay">
                     <source src={video} type="video/mp4"></source>    
                 </video>  
 
-                <div class="overlay" style={{opacity: this.state.vopacity}}></div>
+                <div class="overlay"></div>
 
                 <div class="text">
                     <h2>SOFTWARE ENGINEER</h2>
