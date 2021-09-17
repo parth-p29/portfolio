@@ -43,15 +43,15 @@ const WaterloopColor = "#000000";
 const WaterloopImage = waterloop;
 const WaterloopPath = "/waterloop";
 
-const VexTitle = "Vex Robotics Team 356 Developer/Mentor";
-const VexRole = "Competed in provincial to global level robotics competitions";
-const VexS1 = "Robotics";
-const VexS2 = "Firmware";
-const VexS3 = "Leadership";
-const VexDesc = "Developed new robot functionalities and mentored members on team processess";
-const VexColor = "#DA262F";
-const VexImage = veximg;
-const VexPath = "/vex";
+// const VexTitle = "Vex Robotics Team 356 Developer/Mentor";
+// const VexRole = "Competed in provincial to global level robotics competitions";
+// const VexS1 = "Robotics";
+// const VexS2 = "Firmware";
+// const VexS3 = "Leadership";
+// const VexDesc = "Developed new robot functionalities and mentored members on team processess";
+// const VexColor = "#DA262F";
+// const VexImage = veximg;
+// const VexPath = "/vex";
 
 const Home = () => {
 
@@ -69,14 +69,14 @@ const Home = () => {
                 <Experience title={CeridianTitle} role={CeridianRole} s1={CeridianS1} s2={CeridianS2} s3={CeridianS3} desc={CeridianDesc} color={CeridianColor} image={CeridianImage} path={CeridianPath} />
             </div>
  
-            <div className="title">
+            {/* <div className="title">
                     <h1>Extracurriculars</h1>
             </div>
 
             <div className="exp">
                 <Experience title={WaterloopTitle} role={WaterloopRole} s1={WaterloopS1} s2={WaterloopS2} s3={WaterloopS3} desc={WaterloopDesc} color={WaterloopColor} image={WaterloopImage} path={WaterloopPath} />
                 <Experience title={VexTitle} role={VexRole} s1={VexS1} s2={VexS2} s3={VexS3} desc={VexDesc} color={VexColor} image={VexImage} path={VexPath} />
-            </div>   
+            </div>    */}
 
             <div className="title">
                 <h1>Projects</h1>
