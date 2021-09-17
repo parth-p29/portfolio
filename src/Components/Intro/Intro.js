@@ -36,18 +36,31 @@ const browserType = () => {
     }
 }
 
-console.log(deviceType());
-browserType();
+var ua = window.navigator.userAgent;
+var iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
+var webkit = !!ua.match(/WebKit/i);
+var iOSSafari = iOS && webkit && !ua.match(/CriOS/i);
+
+console.log(iOSSafari);
 
 class Intro extends Component{
 
     state = {
         marginb: '6.5rem'
     }
-    
+
     listenLoadEvent = (x) => {
 
-        if (browserType() == "safari" && (deviceType() == "tablet" || deviceType() == "mobile") ) {
+        // if (browserType() == "safari" && (deviceType() == "tablet" || deviceType() == "mobile") ) {
+        //     this.setState({marginb: "0.2rem"})
+        // }
+
+        // else{
+        //     this.setState({marginb: "6.5rem"})
+        // }
+
+        
+        if (iOSSafari) {
             this.setState({marginb: "0.2rem"})
         }
 
@@ -125,8 +138,7 @@ class Intro extends Component{
 
             // </div>
             
-            // <section className="showcase" style={{marginBottom: this.state.marginb}}>
-            <section className="showcase">
+            <section className="showcase" style={{marginBottom: this.state.marginb}}>
                 <Nav/>
             
                 <video playsInline poster={poster} muted loop autoplay="autoplay">
