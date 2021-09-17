@@ -28,19 +28,14 @@ class Nav extends Component{
 
     render() {
         return (
-
             <nav id="nav" style={{background: this.state.color, opacity: this.state.opacity}}>
-
                 <div className="logo">
-
                     <a href="/">
                         PARTH PATEL
                     </a>
-                    
                 </div>
 
                 <div className="links" >
-                    
                     <a href="/about" target="_blank">
                         About
                     </a>
@@ -52,14 +47,10 @@ class Nav extends Component{
                     <a href={resume} target="_blank">
                         Resume
                     </a>
-
                 </div>
-
             </nav>
-
         );
     }
-
 }
 
 export default Nav;
