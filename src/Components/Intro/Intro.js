@@ -63,11 +63,11 @@ class Intro extends Component{
 
         
         if (iOSSafari) {
-            this.setState({marginb: "0.5rem", display: 'none', vopacity: '1'})
+            this.setState({marginb: "0.5rem"})
         }
 
         else{
-            this.setState({marginb: "6.5rem", display: 'block', vopacity: '0'})
+            this.setState({marginb: "6.5rem"})
         }
     }
 
