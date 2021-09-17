@@ -1,12 +1,13 @@
-* {-webkit-padding-start: 0px;}
-* {-webkit-margin-start: 0px;}
-
 .exp{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 1rem 0 5rem 0;
+}
+
+.first{
+  margin-top: 5rem;
 }
 
 .block{
