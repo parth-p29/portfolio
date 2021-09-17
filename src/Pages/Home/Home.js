@@ -59,6 +59,10 @@ const Home = () => {
         <>
             <Intro/> 
 
+            <div className="block">
+                
+            </div>
+
             <div className="title a" id="experience">
                     <h1>Experience</h1>
             </div> 

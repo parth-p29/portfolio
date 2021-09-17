@@ -6,9 +6,13 @@
   margin: 1rem 0 5rem 0;
 }
 
+.block{
+  background-color: rgb(255, 255, 255);
+  height: 5rem;
+}
+
 .title{
   text-align: center;
-  margin-top: 6rem;
 }
 
 .title h1{
