@@ -46,9 +46,7 @@ console.log(iOSSafari);
 class Intro extends Component{
 
     state = {
-        marginb: '6.5rem',
-        display: 'block',
-        vopacity: '0'
+        marginb: '6.5rem'
     }
 
     listenLoadEvent = (x) => {
@@ -62,8 +60,8 @@ class Intro extends Component{
         // }
 
         
-        if (iOSSafari) {
-            this.setState({marginb: "0.5rem"})
+        if (iOSSafari && browserType() != "chrome") {
+            this.setState({marginb: "1.5rem"})
         }
 
         else{
