@@ -125,7 +125,8 @@ class Intro extends Component{
 
             // </div>
             
-            <section className="showcase" style={{marginBottom: this.state.marginb}}>
+            // <section className="showcase" style={{marginBottom: this.state.marginb}}>
+            <section className="showcase">
                 <Nav/>
             
                 <video playsInline poster={poster} muted loop autoplay="autoplay">
