@@ -4,13 +4,11 @@ import Intro from '../../Components/Intro/Intro'
 import Experience from '../../Components/Experience/Experience';
 import Ceridianimg from '../../Assests/CeridianLogo.jpg';
 import reebeeimg from '../../Assests/reebee.png';
-import veximg from '../../Assests/vex.jpg';
 import waterloop from '../../Assests/waterloop.png';
 
 import Project from '../../Components/Project/Project';
 import diversify from '../../Assests/diversifyproj.jpg';
 import companion from '../../Assests/Companion.jpg';
-import fmb from '../../Assests/fmb.png';
 import yv from '../../Assests/yearview.png';
 import htn from '../../Assests/p4.png';
 
@@ -43,16 +41,6 @@ const WaterloopDesc = "Joined Waterloop (Student Design Team) to provide full-st
 const WaterloopColor = "#000000";
 const WaterloopImage = waterloop;
 const WaterloopPath = "/waterloop";
-
-// const VexTitle = "Vex Robotics Team 356 Developer/Mentor";
-// const VexRole = "Competed in provincial to global level robotics competitions";
-// const VexS1 = "Robotics";
-// const VexS2 = "Firmware";
-// const VexS3 = "Leadership";
-// const VexDesc = "Developed new robot functionalities and mentored members on team processess";
-// const VexColor = "#DA262F";
-// const VexImage = veximg;
-// const VexPath = "/vex";
 
 const Home = () => {
 
