@@ -12,6 +12,7 @@ import diversify from '../../Assests/diversifyproj.jpg';
 import companion from '../../Assests/Companion.jpg';
 import fmb from '../../Assests/fmb.png';
 import yv from '../../Assests/yearview.png';
+import htn from '../../Assests/p4.png';
 
 const CeridianTitle = "Ceridian Software Developer";
 const CeridianRole = "Winter 2021 Internship with Ceridian on the Architecture Team";
@@ -85,11 +86,11 @@ const Home = () => {
             <div className="projs">
                 <div className="proj1">
                     <Project s1="Python/Flask" s2="Pandas" s3="Azure" name="Diversify" link="https://github.com/parth-p29/Diversify" image={diversify}/>
-                    <Project s1="ReactJS" s2="GCP" s3="Material UI" name="Find My Barber" image={fmb} link="https://github.com/parth-p29/findmybarber"/>
+                    <Project s1="Hack the North" s2="Flask" s3="BS4" name="PoliViews" image={htn} link="https://devpost.com/software/poliviews?ref_content=user-portfolio&ref_feature=in_progress"/>
                 </div>
 
                 <div className="proj2">
-                    <Project s1="Flask" s2="MongoDB" s3="JavaScript" link="https://github.com/parth-p29/YearView" name="YearView" image={yv}/>
+                    <Project s1="Python" s2="MongoDB" s3="JavaScript" link="https://github.com/parth-p29/YearView" name="YearView" image={yv}/>
                     <Project s1="NodeJS" s2="ExpressJS" s3="Firebase" name="Companion" link="https://devpost.com/software/companion-m2lg9t" image={companion}/>
                 </div>
             </div> 
