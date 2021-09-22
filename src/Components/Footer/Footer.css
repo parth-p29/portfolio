@@ -1,6 +1,6 @@
 footer{
     margin-top: 100px;
-    background-color: rgb(0, 0, 0);
+    background-color: #232323;
     height: 16rem;
 }
 
@@ -15,6 +15,7 @@ footer{
     margin: 0.5rem 1.4rem 0.5rem 1.4rem;
     width: 20px;
     height: 20px;
+    opacity: 0.95;
 }
 
 .contacts img{
@@ -26,6 +27,8 @@ footer{
 
 .copyright p {
     font-size: 1em;
+    font-weight: 200;
+    letter-spacing: 1px;
 }
 
 .contacts img:hover{
