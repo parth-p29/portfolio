@@ -5,9 +5,8 @@ nav{
     height: 4.5rem;
     z-index: 400;
     font-weight: 200;
-    position: fixed;
     width: 100%;
-    transition: background 0.5s ease;
+    transition: background 0.5s ease, color 0.5s ease;
 }
 
 .logo{

@@ -61,18 +61,17 @@ const Ceridian = () => {
 
 
                 <div className="job-desc">
-                        <p>
-                            Technologies: C#, SQL, MongoGB, Azure, Postman, Kubernetes/Docker 
-                        </p>
+                    <p>
+                        Technologies: C#, SQL, MongoGB, Azure, Postman, Kubernetes/Docker 
+                    </p>
 
-                        <ul>
-                            <li>Interned as a Software Developer on the architecture team and helped the company transition into a micro-service design</li>
-                            <li>Built REST APIs with C# that allowed developers to easily retrive app configurations in seconds from MongoDB</li>
-                            <li>Increased code coverage from 53% to over 90% with unit testing in Xunit that ensured correctly functioning code</li>
-                            <li>Lowered app failures by 96% through developing a retry policy within API calls to automatically re-send failed requests</li>
-                            <li>Built CI/CD pipelines with Azure DevOps to deploy containerized apps to several Kubernetes clusters in production</li>
-                        </ul>
-
+                    <ul>
+                        <li>Interned as a Software Developer on the architecture team and helped the company transition into a micro-service design</li>
+                        <li>Built REST APIs with C# that allowed developers to easily retrive app configurations in seconds from MongoDB</li>
+                        <li>Increased code coverage from 53% to over 90% with unit testing in Xunit that ensured correctly functioning code</li>
+                        <li>Lowered app failures by 96% through developing a retry policy within API calls to automatically re-send failed requests</li>
+                        <li>Built CI/CD pipelines with Azure DevOps to deploy containerized apps to several Kubernetes clusters in production</li>
+                    </ul>
                 </div>
 {/* 
                 <p>Here are some pics of how it went (virtually)</p> */}
@@ -85,7 +84,7 @@ const Ceridian = () => {
             </div>
 
         </>
-    );
+    )
 
 }
 
