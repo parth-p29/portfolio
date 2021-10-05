@@ -22,20 +22,22 @@
 
 .p-info{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     border-right: 3px solid #EDEDED;
     border-left: 3px solid #EDEDED;
     border-bottom: 3px solid #EDEDED;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
-    padding: 1.8em;
+    padding: 1.8em 0 1.8em 0;
+    margin: auto;
 }
 
 .p-info h3{
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: #858585;
     letter-spacing: 0.5px;
+    text-align: center;
 }
 
 /* .p-info p{
