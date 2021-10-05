@@ -27,7 +27,7 @@ const ReebeeRole = "Fall 2021 Internship with Reebee on the Backend Team";
 const ReebeeS1 = "Backend";
 const ReebeeS2 = "Cloud";
 const ReebeeS3 = "Database";
-const ReebeeDesc = "Optimized APIs to manage millions of daily requests and helped transfer logs from AWS to SnowflakeDB";
+const ReebeeDesc = "Optimizing API endpoints to handle millions of daily requests and aiding the transition from AWS to SnowflakeDB";
 const ReebeeColor = "#008CFF";
 const ReebeeImage = reebeeimg;
 const ReebeePath = "/reebee";
@@ -73,7 +73,7 @@ const Home = () => {
 
             <div className="projs">
                 <div className="proj1">
-                    <Project s1="Python/Flask" s2="Pandas" s3="Azure" name="Diversify" link="https://github.com/parth-p29/Diversify" image={diversify}/>
+                    <Project s1="Python/Flask" s2="Spotify" s3="Azure" name="Diversify" link="https://github.com/parth-p29/Diversify" image={diversify}/>
                     <Project s1="Hack the North" s2="Flask" s3="BS4" name="PoliViews" image={htn} link="https://devpost.com/software/poliviews?ref_content=user-portfolio&ref_feature=in_progress"/>
                 </div>
 

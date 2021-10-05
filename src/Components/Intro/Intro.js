@@ -2,9 +2,10 @@ import './Intro.css';
 import Typewriter from 'typewriter-effect';
 import arrow from '../../Assests/down-arrow.png';
 import Nav from '../Nav/Nav';
-import video from './video.mp4';
-import poster from './black.png';
 import { Component } from 'react';
+
+import bim from "../../Assests/new12.jpg";
+import bim2 from "../../Assests/new11.jpg";
 
 const deviceType = () => {
     const ua = navigator.userAgent;
@@ -43,10 +44,20 @@ var iOSSafari = iOS && webkit && !ua.match(/CriOS/i);
 
 console.log(iOSSafari);
 
+function randomIntFromInterval(min, max) { // min and max included 
+    return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
+const backgrounds = {
+    1: bim,
+    2: bim2
+}
+
 class Intro extends Component{
 
     state = {
-        marginb: '6.5rem'
+        marginb: '6.5rem',
+        background: backgrounds[randomIntFromInterval(1,2)]
     }
 
     listenLoadEvent = (x) => {
@@ -67,10 +78,14 @@ class Intro extends Component{
         else{
             this.setState({marginb: "6.5rem"})
         }
+
+
+
+
     }
 
     componentDidMount() {
-        window.addEventListener('scroll', this.listenLoadEvent)
+        window.addEventListener('load', this.listenLoadEvent)
     }
 
     render() {
@@ -141,14 +156,12 @@ class Intro extends Component{
             <section className="showcase" style={{marginBottom: this.state.marginb}}>
                 <Nav/>
             
-                <video playsInline poster={poster} muted loop autoplay="autoplay">
-                    <source src={video} type="video/mp4"></source>    
-                </video>  
+                <img src={this.state.background}/>
 
                 <div class="overlay"></div>
 
                 <div class="text">
-                    <h2>SOFTWARE ENGINEER</h2>
+                    <h2><a href="https://syde.social/" target="_blank">Systems Design Engineering @ UWaterloo</a></h2>
                     <h1>Parth Patel</h1>
                     <h3>
                         <div className="typing">
@@ -163,23 +176,22 @@ class Intro extends Component{
                                 }}
 
                                 onInit={(tw) => {
-                                    
-                                    tw.typeString('<a class="job" target="_blank" href="https://www.ceridian.com/">Software Developer @ Ceridian</a>')
-                                    tw.pauseFor(3000)
-                                    tw.deleteChars(29)
-                                    tw.pauseFor(200)
 
-                                    //
-                                    tw.typeString('<a class="job" target="_blank" href="https://www.reebee.com/">Backend Software Engineer @ Reebee</a>')
+                                    tw.typeString('<a class="job" target="_blank" href="https://www.reebee.com/">Currently a Backend Software Engineer @ Reebee</a>')
                                     tw.pauseFor(3000)
                                     tw.deleteChars(34)
                                     tw.pauseFor(200)
 
-                                    //
-
                                     tw.typeString('<a class="job" target="_blank" href="https://teamwaterloop.ca/">Full Stack Developer @ Waterloop</a>')
                                     tw.pauseFor(3000)
-                                    tw.deleteChars(32)
+                                    tw.deleteChars(44)
+                                    tw.pauseFor(200)
+
+
+                                    //
+                                    tw.typeString('<a class="job" target="_blank" href="https://www.ceridian.com/">Previously a Software Developer @ Ceridian</a>')
+                                    tw.pauseFor(3000)
+                                    tw.deleteChars(42)
                                     tw.pauseFor(200)
 
                                     .start();

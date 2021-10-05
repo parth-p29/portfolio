@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 30%;
+    top: 26%;
     left:0;
     width: 100%;
     z-index: 10;
@@ -27,30 +27,30 @@
 }
 
 .text h1{
-    font-size: 5em;
+    font-size: 6.8em;
     font-weight: 600;
-    margin: 0 0 3.5rem 0;
-    letter-spacing: 5px;
+    margin: 1rem 0 3.5rem 0;
+    letter-spacing: 7px;
 }
 
 .text h2{
-    font-size: 1.6em;
-    letter-spacing: 2px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
     font-weight: 500;
 }
 
 .text h3{
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 2.5px;
 }
 
-.text h3 a{
+.text  a{
     color: white;
     text-decoration: none;
 }
 
- .showcase video{
+.showcase img{
     position: absolute;
     top: 0;
     left: 0;
@@ -59,23 +59,26 @@
     object-fit: cover;
 }
 
-  /* .overlay{
+   /* .overlay{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #030303;
+    background-color: #757575;
     mix-blend-mode: overlay;
-}     */
+}       */
 
 .more-info{
     position: absolute;
-    left:0;
-    width: 100%;
+    left: 50%;
+    right: 50%;
     top:85%;
+    margin: auto;
     text-align: center;
     z-index: 10;
+    display: flex;
+    justify-content: center;
 }
 
 .more-info img{
@@ -112,49 +115,26 @@
     }
   }
 
-@media (max-width: 630px) {
-
-    .text h1{
-        font-size: 4.8em;
-    }
-
-    .text h2{
-        font-size: 1.4em;
-    }
-
-    .text h3{
-        font-size: 1.2em;
-    } 
-}
-
 @media (max-width: 500px) {
 
-    .text h1{
-        font-size: 3.8em;
+    .text{
+        top: 30%;
     }
-
-    .text h2{
-        font-size: 1.25em;
-    }
-
-    .text h3{
-        font-size: 1.05em;
-    } 
-}
-
-@media (max-width: 400px) {
-
     .text h1{
-        font-size: 3.6em;
+        font-size: 3.3em;
         letter-spacing:2px;
+        margin-top: 2rem;
+        margin-bottom: 4.5rem;
     }
 
     .text h2{
-        font-size: 1.25em;
+        font-size: 0.85em;
+        letter-spacing: 0px;
     }
 
     .text h3{
-        font-size: 1.01em;
+        font-size: 0.8em;
+        letter-spacing: 0.3px;
     } 
 }
 
@@ -166,10 +146,10 @@
     }
 
     .text h2{
-        font-size: 1.01em;
+        font-size: 0.8em;
     }
 
     .text h3{
-        font-size: 0.8em;
+        font-size: 0.75em;
     } 
 }
