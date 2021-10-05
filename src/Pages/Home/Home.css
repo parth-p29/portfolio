@@ -33,17 +33,27 @@
   width: 100%;
   text-align:center;
   margin: 1.5rem 0 13rem 0;
+  transition: transform 0.45s ease,
+}
+
+.more-projs:hover{
+  transform: translateY(-5px);
 }
 
 .more-projs a{
   text-decoration: none;
-  color: #3a3a3a77;
+  color: #55555577;
   font-size: 1em;
-  border: 1.2px solid #c4c4c4;
+  border: 3px solid #EDEDED;
   padding: 15px 20px 15px 20px;
   border-radius: 0.3em;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
+  transition: box-shadow 0.45s ease ;
+}
+
+.more-projs a:hover{
+  box-shadow: 13px 14px 13px -12px rgba(97,97,97,1);
 }
 
 @media (max-width:900px) {

@@ -49,7 +49,7 @@ const Home = () => {
             <Intro/> 
 
             <div className="title" id="experience">
-                <h1>Experience</h1>
+                <h1>Places I've Worked</h1>
             </div>  
 
             <div className="exp first">
@@ -68,18 +68,18 @@ const Home = () => {
             </div>    */}
 
             <div className="title">
-                <h1>Projects</h1>
+                <h1>Some Things I've Built</h1>
             </div>
 
             <div className="projs">
                 <div className="proj1">
-                    <Project s1="Python/Flask" s2="Spotify" s3="Azure" name="Diversify" link="https://github.com/parth-p29/Diversify" image={diversify}/>
-                    <Project s1="Hack the North" s2="Flask" s3="BS4" name="PoliViews" image={htn} link="https://devpost.com/software/poliviews?ref_content=user-portfolio&ref_feature=in_progress"/>
+                    <Project text="Spotify Analytics and Music Recommendations" name="Spotify Analytics and Music Recommendations" link="https://github.com/parth-p29/Diversify" image={diversify}/>
+                    <Project text="Helping Canadians learn about Political Parties" name="Helping Canadians learn about Political Parties" image={htn} link="https://devpost.com/software/poliviews?ref_content=user-portfolio&ref_feature=in_progress"/>
                 </div>
 
                 <div className="proj2">
-                    <Project s1="Python" s2="MongoDB" s3="JavaScript" link="https://github.com/parth-p29/YearView" name="YearView" image={yv}/>
-                    <Project s1="NodeJS" s2="ExpressJS" s3="Firebase" name="Companion" link="https://devpost.com/software/companion-m2lg9t" image={companion}/>
+                    <Project text="Nostalgic Photo Storage" link="https://github.com/parth-p29/YearView" name="Nostalgic Photo Storage for Reliving a Year" image={yv}/>
+                    <Project text="A Social Network for Mental Health" name="A Mental Health Chatroom for Resolving Personal Issues" link="https://devpost.com/software/companion-m2lg9t" image={companion}/>
                 </div>
             </div> 
 

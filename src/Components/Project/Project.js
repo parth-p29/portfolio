@@ -12,11 +12,13 @@ const Project = (props) => {
             <div className="p-info">
                 <h3>{props.name}</h3>
 
-                <div className="skill-tags">
-                    <p>{props.s1}</p>
+                {/* <div className="skill-tags">
+                     <p>{props.s1}</p>
                     <p>{props.s2}</p>
-                    <p>{props.s3}</p>
-                </div>
+                    <p>{props.s3}</p> 
+                    
+                    <p>{props.text}</p>
+                </div> */}
             </div>
         </a>
     );

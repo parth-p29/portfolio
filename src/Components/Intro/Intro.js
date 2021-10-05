@@ -156,7 +156,8 @@ class Intro extends Component{
             <section className="showcase" style={{marginBottom: this.state.marginb}}>
                 <Nav/>
             
-                <img src={this.state.background}/>
+                <img src={this.state.background}/> 
+               
 
                 <div class="overlay"></div>
 
