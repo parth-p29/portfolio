@@ -6,7 +6,7 @@
     border: 3px solid #EDEDED;
     padding: 3.4em 0.2em 3.4em 0.2em;
     border-radius: 1em;
-    margin: 0rem 4rem 3rem 3rem;
+    margin: 0rem 4rem 4rem 4rem;
     transition: transform 0.45s ease, box-shadow 0.45s ease ;
     text-decoration: none;
     color:black;
@@ -112,6 +112,13 @@
 
     .e-link{
         font-size: 0.85em;
+    }
+}
+
+@media (max-width:900px) {
+
+    .experience{
+        margin-bottom: 1.5rem;
     }
 }
 

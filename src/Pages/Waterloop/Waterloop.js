@@ -65,7 +65,7 @@ const Waterloop = () => {
 
                 <div className="job-desc">
                         <p>
-                            Technologies: NodeJS, Express, React, TypeScript
+                            Technologies: NodeJS, Express, PostgreSQL, React
                         </p>
 
                         <ul>

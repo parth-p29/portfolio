@@ -42,8 +42,6 @@ var iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
 var webkit = !!ua.match(/WebKit/i);
 var iOSSafari = iOS && webkit && !ua.match(/CriOS/i);
 
-console.log(iOSSafari);
-
 function randomIntFromInterval(min, max) { // min and max included 
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
@@ -56,7 +54,7 @@ const backgrounds = {
 function returnMargin(){
 
     if (iOSSafari && browserType() != "chrome") {
-        return "5rem";
+        return "4.5rem";
     }
 
     else{
@@ -141,7 +139,6 @@ class Intro extends Component{
             
                 <img src={this.state.background}/> 
                
-
                 <div class="overlay"></div>
 
                 <div class="text">
