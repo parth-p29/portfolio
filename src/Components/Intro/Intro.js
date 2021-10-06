@@ -53,39 +53,22 @@ const backgrounds = {
     2: bim2
 }
 
+function returnMargin(){
+
+    if (iOSSafari && browserType() != "chrome") {
+        return "5rem";
+    }
+
+    else{
+        return "7.5rem";
+    }
+}
+
 class Intro extends Component{
 
     state = {
-        marginb: '6.5rem',
+        marginb: returnMargin(),
         background: backgrounds[randomIntFromInterval(1,2)]
-    }
-
-    listenLoadEvent = (x) => {
-
-        // if (browserType() == "safari" && (deviceType() == "tablet" || deviceType() == "mobile") ) {
-        //     this.setState({marginb: "0.2rem"})
-        // }
-
-        // else{
-        //     this.setState({marginb: "6.5rem"})
-        // }
-
-        
-        if (iOSSafari && browserType() != "chrome") {
-            this.setState({marginb: "1.5rem"})
-        }
-
-        else{
-            this.setState({marginb: "6.5rem"})
-        }
-
-
-
-
-    }
-
-    componentDidMount() {
-        window.addEventListener('load', this.listenLoadEvent)
     }
 
     render() {
