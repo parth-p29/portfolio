@@ -1,5 +1,5 @@
 import './Experience.css';
-import Ceridianimg from '../../Assests/CeridianLogo.jpg'
+
 const Experience = (props) => {
 
     return (

@@ -46,7 +46,7 @@ const yvtitle = "YearView - Relive and Reflect on the Memories You've Made";
 const yvs1 = "API Development";
 const yvs2 = "MongoDB";
 const yvs3 = "JavaScript";
-const yvdesc = "Joined Waterloop (Student Design Team) to provide full-stack services for developing server/client side features";
+const yvdesc = "Developed a secure photo-storage tool and authentication system that allows users to retain memories throughout a year";
 const yvcolor = "#183249";
 const yvpath = "https://github.com/parth-p29/YearView";
 
@@ -55,7 +55,7 @@ const dtitle = "Diversify - Spotify Analytics and New Music Recommendations";
 const ds1 = "Flask (Python)";
 const ds2 = "Data Analysis";
 const ds3 = "Azure";
-const ddesc = "Joined Waterloop (Student Design Team) to provide full-stack services for developing server/client side features";
+const ddesc = "Built API endpoints that leveraged thousands of requests from around the world to analyze and display users' Spotify data";
 const dcolor = "#8FE083";
 const dpath = "https://github.com/parth-p29/Diversify";
 
@@ -64,7 +64,7 @@ const ctitle = "Companion - A Social Network for Promoting Mental Health";
 const cs1 = "NodeJS/Express";
 const cs2 = "Firebase";
 const cs3 = "Socket.io";
-const cdesc = "Joined Waterloop (Student Design Team) to provide full-stack services for developing server/client side features";
+const cdesc = "A healthy social media network where users interact with others who are going through similar problems as themselves";
 const ccolor = "#8977FF";
 const cpath = "https://devpost.com/software/companion-m2lg9t";
 
