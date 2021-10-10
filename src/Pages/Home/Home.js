@@ -10,7 +10,6 @@ import Project from '../../Components/Project/Project';
 import diversify from '../../Assests/diversifyproj.jpg';
 import companion from '../../Assests/Companion.jpg';
 import yv from '../../Assests/yearview.png';
-import htn from '../../Assests/p4.png';
 
 const CeridianTitle = "Ceridian Software Developer";
 const CeridianRole = "Winter 2021 Internship with Ceridian on the Architecture Team";
@@ -48,8 +47,7 @@ const yvs1 = "API Development";
 const yvs2 = "MongoDB";
 const yvs3 = "JavaScript";
 const yvdesc = "Joined Waterloop (Student Design Team) to provide full-stack services for developing server/client side features";
-const yvcolor = "#000000";
-const yvimage = waterloop;
+const yvcolor = "#183249";
 const yvpath = "https://github.com/parth-p29/YearView";
 
 const dtype = "600+ Unique Users";
@@ -68,7 +66,6 @@ const cs2 = "Firebase";
 const cs3 = "Socket.io";
 const cdesc = "Joined Waterloop (Student Design Team) to provide full-stack services for developing server/client side features";
 const ccolor = "#8977FF";
-const cimage = waterloop;
 const cpath = "https://devpost.com/software/companion-m2lg9t";
 
 const Home = () => {
@@ -86,15 +83,6 @@ const Home = () => {
                 <Experience title={WaterloopTitle} role={WaterloopRole} s1={WaterloopS1} s2={WaterloopS2} s3={WaterloopS3} desc={WaterloopDesc} color={WaterloopColor} image={WaterloopImage} path={WaterloopPath} />
                 <Experience title={CeridianTitle} role={CeridianRole} s1={CeridianS1} s2={CeridianS2} s3={CeridianS3} desc={CeridianDesc} color={CeridianColor} image={CeridianImage} path={CeridianPath} />
             </div>
- 
-            {/* <div className="title">
-                    <h1>Extracurriculars</h1>
-            </div>
-
-            <div className="exp">
-                <Experience title={WaterloopTitle} role={WaterloopRole} s1={WaterloopS1} s2={WaterloopS2} s3={WaterloopS3} desc={WaterloopDesc} color={WaterloopColor} image={WaterloopImage} path={WaterloopPath} />
-                <Experience title={VexTitle} role={VexRole} s1={VexS1} s2={VexS2} s3={VexS3} desc={VexDesc} color={VexColor} image={VexImage} path={VexPath} />
-            </div>    */}
 
             <div className="title">
                 <h1>Some Things I've Built</h1>
@@ -102,12 +90,8 @@ const Home = () => {
 
             <div className="projs">
                     <Project title={dtype} role={dtitle} s1={ds1} s2={ds2} s3={ds3} desc={ddesc} color={dcolor} image={diversify} path={dpath} />
-                    <Project title={ctype} role={ctitle} s1={cs1} s2={cs2} s3={cs3} desc={cdesc} color={ccolor} image={companion} path={dpath} />
-                    
+                    <Project title={ctype} role={ctitle} s1={cs1} s2={cs2} s3={cs3} desc={cdesc} color={ccolor} image={companion} path={cpath} />
                     <Project title={yvtype} role={yvtitle} s1={yvs1} s2={yvs2} s3={yvs3} desc={yvdesc} color={yvcolor} image={yv} path={yvpath} />
-                    {/* <Project text="Spotify Analytics and Music Recommendations" name="Spotify Analytics and Music Recommendations" link="https://github.com/parth-p29/Diversify" image={diversify}/>
-                    <Project text="Helping Canadians learn about Political Parties" name="Helping Canadians learn about Political Parties" image={htn} link="https://devpost.com/software/poliviews?ref_content=user-portfolio&ref_feature=in_progress"/> */}
- 
             </div> 
 
             <div className="more-projs">
