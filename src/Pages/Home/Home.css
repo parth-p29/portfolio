@@ -18,26 +18,17 @@
 
 .projs{
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
-.proj1{
-  margin-right: 2rem;
-}
-
-.proj2{
-  margin-left: 2rem;
-} 
 
 .more-projs{
   width: 100%;
   text-align:center;
   margin: 1.5rem 0 13rem 0;
   transition: transform 0.45s ease,
-}
-
-.more-projs:hover{
-  transform: translateY(-5px);
 }
 
 .more-projs a{
@@ -52,9 +43,6 @@
   transition: box-shadow 0.45s ease ;
 }
 
-.more-projs a:hover{
-  box-shadow: 13px 14px 13px -12px rgba(97,97,97,1);
-}
 
 @media (max-width:900px) {
 

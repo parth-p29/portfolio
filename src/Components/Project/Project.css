@@ -1,4 +1,4 @@
-.project-container{
+/* .project-container{
     text-decoration: none;
     color: black;
     margin-bottom: 4rem;
@@ -40,14 +40,6 @@
     text-align: center;
 }
 
-/* .p-info p{
-
-    font-size: 0.76em;
-    color: black;
-    padding: 7px 12px 7px 12px;
-    text-align: center;
-    opacity: 0.5;
-} */
 
 .skill-tags{
     display: flex;
@@ -133,5 +125,229 @@
 
     .p-info{
         padding: 1em;
+    }
+}  */
+
+
+.project{
+    display: flex;
+    justify-content: space-around;
+    width: 67%;
+    align-items: center;
+    border: 3px solid #EDEDED;
+    padding: 3.4em 0.2em 3.4em 0.2em;
+    border-radius: 1em;
+    margin: 0rem 4rem 4rem 4rem;
+    transition: transform 0.45s ease, box-shadow 0.45s ease ;
+    text-decoration: none;
+    color:black;
+}
+
+.project:hover{
+    box-shadow: 13px 14px 13px -12px rgba(97,97,97,1);  
+    transform: translateY(-10px);
+}
+
+.project img{
+    width: 17.3em;
+    border-radius: 0.9em;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.e-title{
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 1.3em;
+    color: rgba(90, 90, 90, 0.582);
+    opacity: 0.7;
+}
+
+.role{
+    width: 95%;
+    font-size: 1.7em;
+    opacity: 0.7;
+    font-weight: 600;
+}
+
+.tags{
+    display: flex;
+    width: 100%;
+}
+
+.tags h5{
+    margin: 0.7rem 1.3rem 0.7rem 0;
+    font-size: 0.672em;
+    background-color: #09193D;
+    color: white;
+    padding: 0.5em 1.2em 0.5em 1.2em;
+    border-radius: 2em;
+    font-weight: 400;
+}
+
+.description{
+    font-weight: 300;
+    font-size: 0.95em;
+}
+
+.e-link{
+    text-decoration: none;
+    color: grey;
+    opacity: 0.9;
+    margin-top: 0.9rem;
+    font-size: 1.08em;
+    font-weight: 600;
+    transition: color 0.5s ease, transform 0.5s ease;
+}
+
+.e-link:hover{
+    transform: translateX(0.6em);
+}
+
+@media (min-width: 1600px){
+
+    .project {
+        width: 55%;
+    }
+}
+
+@media (max-width: 1000px){
+
+    .project img{
+        width: 10.3em;
+    }
+
+    .e-title{
+        font-size: 0.77em;
+    }
+
+    .role{
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .tags h5{
+        margin: 0.7rem 0.7rem 0.7rem 0;
+        font-size: 0.5em;
+    }
+
+    .description{
+        font-size: 0.75em;
+    }
+
+    .e-link{
+        font-size: 0.85em;
+    }
+}
+
+@media (max-width:900px) {
+
+    .project{
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 650px){
+
+    .project{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 66%;
+        padding: 1.5em 0em 1.5em 0em;
+        height: 40rem;
+    }
+
+    .info{
+        width:80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project img{
+        width: 11.3em;
+    }
+
+    .e-title{
+        width: 100%;
+        text-align: center;
+        font-size: 0.9em;
+        margin-bottom: 1rem;
+    }
+
+    .role{
+        width: 100%;
+        font-size: 1.25em;
+    }
+
+    .tags{
+        margin: 1rem 0 1rem 0;
+    }
+
+    .tags h5{
+        font-size: 0.7em;
+    }
+
+    .description{
+        font-size: 0.85em;
+        margin: 0.3rem 0 0.5rem 0;
+    }
+
+    .e-link{
+        width: 100%;
+        text-align: center;
+        font-size: 0.95em;
+    }
+}
+
+ @media (max-width: 620px){
+
+    .project{
+        margin: auto;
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    .tags{
+        margin: 0.3rem 0 0.3rem 0;
+    }
+
+    .tags h5{
+        font-size: 0.55em;
+    }
+
+    .project img{
+        width: 14em;
+    }
+
+    .description{
+        font-size: 0.78em;
+        text-align: left;
+    }
+
+    .e-title{
+        font-size: 0.85em;
+        margin-bottom: 0.5rem;
+        text-align: left;
+    }
+
+    .role{
+        font-size: 1.1em;
+        text-align: left;
+    }
+
+    .e-link{
+        text-align: left;
     }
 } 

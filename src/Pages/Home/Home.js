@@ -14,9 +14,9 @@ import htn from '../../Assests/p4.png';
 
 const CeridianTitle = "Ceridian Software Developer";
 const CeridianRole = "Winter 2021 Internship with Ceridian on the Architecture Team";
-const CeridianS1 = "Backend";
-const CeridianS2 = "Architecture";
-const CeridianS3 = "DevOps";
+const CeridianS1 = "C#";
+const CeridianS2 = "Azure DevOps";
+const CeridianS3 = "MongoDB";
 const CeridianDesc = "Built multiple APIs and designed backend servies to help the company shift towards a micro-service architecture";
 const CeridianColor = "#09193D";
 const CeridianImage = Ceridianimg;
@@ -24,9 +24,9 @@ const CeridianPath = "/ceridian"
 
 const ReebeeTitle = "Reebee Backend Software Engineer";
 const ReebeeRole = "Fall 2021 Internship with Reebee on the Backend Team";
-const ReebeeS1 = "Backend";
-const ReebeeS2 = "Cloud";
-const ReebeeS3 = "Database";
+const ReebeeS1 = "PHP";
+const ReebeeS2 = "MySQL";
+const ReebeeS3 = "AWS";
 const ReebeeDesc = "Optimizing API endpoints to handle millions of daily requests and aiding the transition from AWS to SnowflakeDB";
 const ReebeeColor = "#008CFF";
 const ReebeeImage = reebeeimg;
@@ -34,13 +34,42 @@ const ReebeePath = "/reebee";
 
 const WaterloopTitle = "Waterloop Full Stack Developer";
 const WaterloopRole = "Working as a Full Stack Developer on Waterloop's Web Team";
-const WaterloopS1 = "Frontend";
-const WaterloopS2 = "Backend";
-const WaterloopS3 = "Teamwork";
+const WaterloopS1 = "NodeJS/Express";
+const WaterloopS2 = "PostgreSQL";
+const WaterloopS3 = "React";
 const WaterloopDesc = "Joined Waterloop (Student Design Team) to provide full-stack services for developing server/client side features";
 const WaterloopColor = "#000000";
 const WaterloopImage = waterloop;
 const WaterloopPath = "/waterloop";
+
+const yvtype = "Passion Project";
+const yvtitle = "YearView - Relive and Reflect on the Memories You've Made";
+const yvs1 = "API Development";
+const yvs2 = "MongoDB";
+const yvs3 = "JavaScript";
+const yvdesc = "Joined Waterloop (Student Design Team) to provide full-stack services for developing server/client side features";
+const yvcolor = "#000000";
+const yvimage = waterloop;
+const yvpath = "https://github.com/parth-p29/YearView";
+
+const dtype = "600+ Unique Users";
+const dtitle = "Diversify - Spotify Analytics and New Music Recommendations";
+const ds1 = "Flask (Python)";
+const ds2 = "Data Analysis";
+const ds3 = "Azure";
+const ddesc = "Joined Waterloop (Student Design Team) to provide full-stack services for developing server/client side features";
+const dcolor = "#8FE083";
+const dpath = "https://github.com/parth-p29/Diversify";
+
+const ctype = "Hackathon Project at nwHacks2021";
+const ctitle = "Companion - A Social Network for Promoting Mental Health";
+const cs1 = "NodeJS/Express";
+const cs2 = "Firebase";
+const cs3 = "Socket.io";
+const cdesc = "Joined Waterloop (Student Design Team) to provide full-stack services for developing server/client side features";
+const ccolor = "#8977FF";
+const cimage = waterloop;
+const cpath = "https://devpost.com/software/companion-m2lg9t";
 
 const Home = () => {
 
@@ -72,19 +101,17 @@ const Home = () => {
             </div>
 
             <div className="projs">
-                <div className="proj1">
-                    <Project text="Spotify Analytics and Music Recommendations" name="Spotify Analytics and Music Recommendations" link="https://github.com/parth-p29/Diversify" image={diversify}/>
-                    <Project text="Helping Canadians learn about Political Parties" name="Helping Canadians learn about Political Parties" image={htn} link="https://devpost.com/software/poliviews?ref_content=user-portfolio&ref_feature=in_progress"/>
-                </div>
-
-                <div className="proj2">
-                    <Project text="Nostalgic Photo Storage" link="https://github.com/parth-p29/YearView" name="Nostalgic Photo Storage for Reliving a Year" image={yv}/>
-                    <Project text="A Social Network for Mental Health" name="A Mental Health Chatroom for Resolving Personal Issues" link="https://devpost.com/software/companion-m2lg9t" image={companion}/>
-                </div>
+                    <Project title={dtype} role={dtitle} s1={ds1} s2={ds2} s3={ds3} desc={ddesc} color={dcolor} image={diversify} path={dpath} />
+                    <Project title={ctype} role={ctitle} s1={cs1} s2={cs2} s3={cs3} desc={cdesc} color={ccolor} image={companion} path={dpath} />
+                    
+                    <Project title={yvtype} role={yvtitle} s1={yvs1} s2={yvs2} s3={yvs3} desc={yvdesc} color={yvcolor} image={yv} path={yvpath} />
+                    {/* <Project text="Spotify Analytics and Music Recommendations" name="Spotify Analytics and Music Recommendations" link="https://github.com/parth-p29/Diversify" image={diversify}/>
+                    <Project text="Helping Canadians learn about Political Parties" name="Helping Canadians learn about Political Parties" image={htn} link="https://devpost.com/software/poliviews?ref_content=user-portfolio&ref_feature=in_progress"/> */}
+ 
             </div> 
 
             <div className="more-projs">
-                <a href="https://github.com/parth-p29?tab=repositories" target="_blank">
+                <a href="https://github.com/parth-p29" target="_blank">
                     More Projects &#8594;
                 </a>
             </div> 
