@@ -4,7 +4,6 @@ import arrow from '../../Assests/down-arrow.png';
 import Nav from '../Nav/Nav';
 import { Component } from 'react';
 
-import bim from "../../Assests/new12.jpg";
 import bim2 from "../../Assests/new11.jpg";
 
 const deviceType = () => {
@@ -46,11 +45,6 @@ function randomIntFromInterval(min, max) { // min and max included
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
-const backgrounds = {
-    1: bim,
-    2: bim2
-}
-
 function returnMargin(){
 
     if (iOSSafari && browserType() != "chrome") {
@@ -65,8 +59,7 @@ function returnMargin(){
 class Intro extends Component{
 
     state = {
-        marginb: returnMargin(),
-        background: backgrounds[randomIntFromInterval(1,2)]
+        marginb: returnMargin()
     }
 
     render() {
@@ -137,7 +130,7 @@ class Intro extends Component{
             <section className="showcase" style={{marginBottom: this.state.marginb}}>
                 <Nav/>
             
-                <img src={this.state.background}/> 
+                <img src={bim2}/> 
                
                 <div class="overlay"></div>
 
