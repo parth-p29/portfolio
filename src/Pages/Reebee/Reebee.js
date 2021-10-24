@@ -67,12 +67,14 @@ const Reebee = () => {
 
                 <div className="job-desc">
                         <p>
-                            Technologies: PHP (Laravel), Golang, AWS, MySQL, Postman, Jira
+                            Technologies: PHP, Golang, AWS, MySQL, Postman, Jira
                         </p>
 
                         <ul>
                             <li>Working as a Backend Software Engineer for the Fall 2021 term</li>
-                            <li>Will join the backend product team to develop and optimze new features for their mobile/web application</li>
+                            <li>Joined the backend product team to develop and optimze new features for Reebee's mobile/web application</li>
+                            <li>Developed backend services to efficiently share items across 650,000+ flyer pages in seconds using PHP and MySQL</li>
+                            <li>Reduced API run time by 43% through restructuring embedded mapper functions and removing trivial data from requests</li>
                         </ul>
 
                 </div>
