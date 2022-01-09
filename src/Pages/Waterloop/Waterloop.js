@@ -75,7 +75,7 @@ const Waterloop = () => {
             </div>
 
             <div className="images">
-                <p className='i'>Some pictures from working at Waterloop</p>
+                <p className='i'>Some pictures from Waterloop</p>
                      <Gallery photos={photos} direction={"column"} />
             </div>
 

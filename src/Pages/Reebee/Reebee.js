@@ -3,6 +3,8 @@ import Gallery from "react-photo-gallery";
 import r1 from '../../Assests/roffice.jpg'
 import r2 from '../../Assests/r2.jpg'
 import r3 from '../../Assests/r3.jpg'
+import r4 from '../../Assests/rr1.jpg';
+import r5 from '../../Assests/rr2.jpg';
 
 // import cpic1 from './cpics/cpic1.jpg';
 // import cpic2 from './cpics/cpic2.JPG';
@@ -29,20 +31,20 @@ const photos = [
         src: r3,
         width: 18,
         height: 14
+    },
+
+    {
+        src: r4,
+        width: 20,
+        height: 18
+    },
+
+    {
+        src: r5,
+        width: 15,
+        height: 16
     }
 ]
-
-//     {
-//         src: cpic4,
-//         width: 20,
-//         height: 18
-//     },
-
-//     {
-//         src: cpic6,
-//         width: 15,
-//         height: 16
-//     },
 
 //     {
 //         src: cpic7,
@@ -73,8 +75,10 @@ const Reebee = () => {
                         <ul>
                             <li>Working as a Backend Software Engineer for the Fall 2021 term</li>
                             <li>Joined the backend product team to develop and optimze new features for Reebee's mobile/web application</li>
-                            <li>Developed backend services to efficiently share items across 650,000+ flyer pages in seconds using PHP and MySQL</li>
-                            <li>Reduced API run time by 43% through restructuring embedded mapper functions and removing trivial data from requests</li>
+                            <li>Developed an internal tool to efficiently share items across 650,000+ flyer pages in seconds using PHP and MySQL</li>
+                            <li>Saved the company over $10,000 by creating a fail-over environment on AWS to leverage traffic during an Amazon outage</li>
+                            <li>Mitigated 100+ errors and reduced memory usage by up to 18% through refactoring the codebase with PHPStan</li>
+                            <li>Automated the user engagement system to filter, group and pass daily emails to Zendesk for easy management</li>
                         </ul>
 
                 </div>
