@@ -1,6 +1,6 @@
 import './Nav.css';
 import {Link} from 'react-scroll';
-import resume from './Parth_Patel_Resume.pdf'
+import resume from './Parth Patel Resume.pdf'
 
 import { Component } from 'react';
 
