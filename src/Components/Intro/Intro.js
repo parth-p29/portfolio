@@ -151,9 +151,9 @@ class Intro extends Component{
 
                                 onInit={(tw) => {
 
-                                    tw.typeString('Currently Seeking Summer 2022 SWE Internships')
+                                    tw.typeString('<a class="job" target="_blank" href="https://www.odaia.ai/">Currently a Software Engineer @ ODAIA</a>')
                                     tw.pauseFor(3000)
-                                    tw.deleteChars(45)
+                                    tw.deleteChars(38)
                                     tw.pauseFor(200)
 
                                     tw.typeString('<a class="job" target="_blank" href="https://www.reebee.com/">Previously a Backend Software Engineer @ Reebee</a>')
@@ -170,6 +170,11 @@ class Intro extends Component{
                                     tw.typeString('<a class="job" target="_blank" href="https://www.ceridian.com/">Software Developer @ Ceridian</a>')
                                     tw.pauseFor(3000)
                                     tw.deleteChars(43)
+                                    tw.pauseFor(200)
+
+                                    tw.typeString('Currently Seeking Winter 2023 SWE Internships')
+                                    tw.pauseFor(3000)
+                                    tw.deleteChars(45)
                                     tw.pauseFor(200)
 
                                     .start();
