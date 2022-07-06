@@ -69,7 +69,7 @@ const ds2 = "Data Analysis";
 const ds3 = "Azure";
 const ddesc = "Built API endpoints that leveraged thousands of requests from around the world to analyze and display users' Spotify data";
 const dcolor = "#8FE083";
-const dpath = "https://github.com/parth-p29/Diversify";
+const dpath = "https://diversify-application.herokuapp.com/";
 
 const ctype = "Hackathon Project at nwHacks2021";
 const ctitle = "Companion - A Social Network for Promoting Mental Health";
@@ -81,11 +81,11 @@ const ccolor = "#8977FF";
 const cpath = "https://devpost.com/software/companion-m2lg9t";
 
 const atype = "Hackathon Project at Hack the North";
-const atitle = "PoliViews - A search engine to get the latest info on politicians";
+const atitle = "PoliViews - A search engine that retrieves the latest info on politicians";
 const as1 = "Flask API";
 const as2 = "Beautiful Soup";
 const as3 = "React";
-const adesc = "Enter a phrase (e.g. climate change) and recieve the vision for each Canadian party leader regarding that query";
+const adesc = "Enter a phrase (e.g. climate change) and recieve the vision from each Canadian party leader regarding that query";
 const acolor = "#FF7A90";
 const apath = "https://devpost.com/software/poliviews";
 

@@ -14,7 +14,7 @@ class Nav extends Component{
     }
 
     listenLoadEvent = (x) => {
-        if (window.location.pathname == "/ceridian" || window.location.pathname == "/reebee" || window.location.pathname == "/waterloop") {
+        if (window.location.pathname == "/ceridian" || window.location.pathname == "/reebee" || window.location.pathname == "/waterloop" || window.location.pathname == "/odaia") {
             // this.setState({position: 'relative', color: "#232323", opacity: "1", desc:false});
             this.setState({position: 'relative', color: "#232323", opacity: "1", desc:false});
             console.log(window.location.pathname);

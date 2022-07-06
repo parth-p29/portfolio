@@ -6,13 +6,6 @@ import r3 from '../../Assests/r3.jpg'
 import r4 from '../../Assests/rr1.jpg';
 import r5 from '../../Assests/rr2.jpg';
 
-// import cpic1 from './cpics/cpic1.jpg';
-// import cpic2 from './cpics/cpic2.JPG';
-// import cpic3 from './cpics/cpic3.JPG';
-// import cpic4 from './cpics/cpic4.jpg';
-// import cpic6 from './cpics/cpic6.jpg';
-// import cpic7 from './cpics/cpic7.PNG';
-
 const photos = [
     {
       src: r1,
@@ -46,15 +39,6 @@ const photos = [
     }
 ]
 
-//     {
-//         src: cpic7,
-//         width: 15,
-//         height: 18
-//     }
-
-//   ];
-
-
 const Reebee = () => {
 
     return (
@@ -63,22 +47,19 @@ const Reebee = () => {
             <div className="company-info">
 
                 <div className="company-title">
-                    <h1>Reebee Internship (Fall 2021)</h1>
+                    <h1>Reebee Internship</h1>
                 </div>
 
 
                 <div className="job-desc">
                         <p>
-                            Technologies: PHP, Golang, AWS, MySQL, Postman, Jira
+                            Technologies: PHP, MySQL, AWS, Snowflake, Postman, Jira
                         </p>
 
                         <ul>
-                            <li>Working as a Backend Software Engineer for the Fall 2021 term</li>
+                            <li>Interned as a Backend Software Engineer for the Fall 2021 term</li>
+                            <li>Reebee produces digital flyers from 1000s of stores, allowing millions of Candians to save money while shopping</li>
                             <li>Joined the backend product team to develop and optimze new features for Reebee's mobile/web application</li>
-                            <li>Developed an internal tool to efficiently share items across 650,000+ flyer pages in seconds using PHP and MySQL</li>
-                            <li>Saved the company over $10,000 by creating a fail-over environment on AWS to leverage traffic during an Amazon outage</li>
-                            <li>Mitigated 100+ errors and reduced memory usage by up to 18% through refactoring the codebase with PHPStan</li>
-                            <li>Automated the user engagement system to filter, group and pass daily emails to Zendesk for easy management</li>
                         </ul>
 
                 </div>

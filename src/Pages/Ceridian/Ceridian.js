@@ -1,7 +1,6 @@
 import './Ceridian.css';
 import Gallery from "react-photo-gallery";
 import cpic1 from './cpics/cpic1.jpg';
-import cpic2 from './cpics/cpic2.JPG';
 import cpic3 from './cpics/cpic3.JPG';
 import cpic4 from './cpics/cpic4.jpg';
 import cpic6 from './cpics/cpic6.jpg';
@@ -13,12 +12,6 @@ const photos = [
       width: 15,
       height: 12
 
-    },
-
-    {
-        src: cpic2,
-        width: 15,
-        height: 19
     },
 
     {
@@ -56,26 +49,21 @@ const Ceridian = () => {
             <div className="company-info">
 
                 <div className="company-title">
-                    <h1>Ceridian Internship (Winter 2021)</h1>
+                    <h1>Ceridian Internship</h1>
                 </div>
 
 
                 <div className="job-desc">
                     <p>
-                        Technologies: C#, SQL, MongoGB, Azure, Postman, Kubernetes/Docker 
+                        Technologies: C#, MongoGB, Azure, Kubernetes/Docker, React
                     </p>
 
                     <ul>
-                        <li>Interned as a Software Developer on the architecture team and helped the company transition into a micro-service design</li>
-                        <li>Built REST APIs with C# that allowed developers to easily retrive app configurations in seconds from MongoDB</li>
-                        <li>Increased code coverage from 53% to over 90% with unit testing in Xunit that ensured correctly functioning code</li>
-                        <li>Lowered app failures by 96% through developing a retry policy within API calls to automatically re-send failed requests</li>
-                        <li>Built CI/CD pipelines with Azure DevOps to deploy containerized apps to several Kubernetes clusters in production</li>
+                        <li>Interned as a Software Developer for the Winter 2021 term</li>
+                        <li>Ceridian is a HCM leader and provides payroll via it's Dayforce application to millions of workers around the world</li>
+                        <li>Joined the architecture team to aid the migration from a monolith to a mico-service design</li>
                     </ul>
                 </div>
-{/* 
-                <p>Here are some pics of how it went (virtually)</p> */}
-
             </div>
 
             <div className="images">
