@@ -15,7 +15,7 @@ footer{
     margin: 0.5rem 1.4rem 0.5rem 1.4rem;
     width: 20px;
     height: 20px;
-    opacity: 0.95;
+    opacity: 0.88;
 }
 
 .contacts img{
@@ -29,6 +29,7 @@ footer{
     font-size: 1em;
     font-weight: 200;
     letter-spacing: 1px;
+    opacity: 0.6;
 }
 
 .contacts img:hover{
