@@ -6,12 +6,14 @@ import o2 from '../../Assests/o2.jpg'
 import o3 from '../../Assests/o3.jpg'
 import o4 from '../../Assests/o4.jpg'
 import o5 from '../../Assests/o5.jpg'
+import o6 from '../../Assests/o6.png'
+import o7 from '../../Assests/o7.jpg'
 
 const photos = [
     {
       src: o1,
       width: 12,
-      height: 15
+      height: 12
 
     },
 
@@ -30,14 +32,26 @@ const photos = [
     {
         src: o4,
         width: 30,
-        height: 20
+        height: 22
     },
 
     {
         src: o5,
         width: 16,
         height: 16
-    }
+    },
+
+    {
+        src: o6,
+        width: 38,
+        height: 24
+    },
+
+    {
+        src: o7,
+        width: 25,
+        height: 20
+    },
 
   ];
 
