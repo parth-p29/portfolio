@@ -96,7 +96,7 @@ const Home = () => {
             <Intro/> 
 
             <div className="title" id="experience">
-                <h1>Places I've Worked</h1>
+                <h1>Places I've Worked...</h1>
             </div>  
 
             <div className="exp first">
@@ -107,7 +107,7 @@ const Home = () => {
             </div>
 
             <div className="title">
-                <h1>Some Things I've Built</h1>
+                <h1>Featured Projects</h1>
             </div>
 
             <div className="projs">

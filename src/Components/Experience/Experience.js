@@ -3,7 +3,7 @@ import './Experience.css';
 const Experience = (props) => {
 
     return (
-        <a href={props.path} className="experience">
+        <a href={props.path} className="experience" id="exp">
             <div className="info">
                 {/* <h3 className="e-title">Ceridian Software Developer</h3> */}
                 <h3 className="e-title">{props.title}</h3>

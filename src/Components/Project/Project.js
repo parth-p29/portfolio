@@ -24,7 +24,7 @@ const Experience = (props) => {
                     {props.desc}
                 </p>
 
-                <a href={props.path} className="e-link">
+                <a href={props.path} target="_blank" className="e-link">
                     Check it out &#8594;
                 </a>
             </div>

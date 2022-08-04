@@ -1,0 +1,41 @@
+.about-title{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.about-title h1{
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: #4D4D4D;
+}
+
+.alink {
+    color: rgb(122, 157, 239);
+    text-decoration: none;
+}
+
+.about-info{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img{
+    width: 250px;
+    height:290px;
+    border-radius: 5%;
+    margin-right: 50px;
+}
+
+.about-info p{
+    color: #4D4D4D;
+    margin: 5px;
+    letter-spacing: 0.3px;
+}
+
+.about-header{
+    display: flex;
+    justify-content: center;
+}

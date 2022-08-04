@@ -10,18 +10,24 @@ class Nav extends Component{
         color: 'none',
         opacity: '1',
         position: 'fixed',
-        desc : true
+        desc : true,
+        include_about: "initial",
+        logo_text: "PARTH PATEL"
     }
 
     listenLoadEvent = (x) => {
-        if (window.location.pathname == "/ceridian" || window.location.pathname == "/reebee" || window.location.pathname == "/waterloop" || window.location.pathname == "/odaia") {
+        if (window.location.pathname == "/ceridian" || window.location.pathname == "/reebee" || window.location.pathname == "/waterloop" || window.location.pathname == "/odaia" || window.location.pathname == "/about") {
             // this.setState({position: 'relative', color: "#232323", opacity: "1", desc:false});
-            this.setState({position: 'relative', color: "#232323", opacity: "1", desc:false});
+            this.setState({position: 'relative', color: "#232323", opacity: "1", desc:false, logo_text: "👈"});
             console.log(window.location.pathname);
         }
 
         else{
             this.setState({position: 'fixed', color: "none", opacity: "1", desc:true});
+        }
+
+        if (window.location.pathname == "/about") {
+            this.setState({include_about: "none"});
         }
     }
 
@@ -46,16 +52,16 @@ class Nav extends Component{
             <nav id="nav" style={{background: this.state.color, opacity: this.state.opacity, position: this.state.position}}>
                 <div className="logo">
                     <a href="/">
-                        PARTH PATEL
+                        {this.state.logo_text}
                     </a>
                 </div>
 
                 <div className="links" >
-                    {/* <a href="/about" target="_blank">
+                    <a href="/about"style={{display: this.state.include_about}}>
                         About
-                    </a> */}
+                    </a>
 
-                    <Link to="footer" smooth={true} duration={1000} className="slink">
+                    <Link to="footer" smooth={false} duration={800} className="slink">
                         Contact
                     </Link>
 

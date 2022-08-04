@@ -186,7 +186,7 @@ class Intro extends Component{
                         </h3>
                 </div>
 
-                <div className="more-info" id="mi">
+                <div className="more-info" id="exp">
                     <img src={arrow} />
                 </div> 
             </section>
