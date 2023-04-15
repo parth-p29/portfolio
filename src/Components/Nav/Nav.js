@@ -1,6 +1,5 @@
 import './Nav.css';
 import {Link} from 'react-scroll';
-import resume from './Parth_Patel_Resume.pdf'
 
 import { Component } from 'react';
 
@@ -12,11 +11,12 @@ class Nav extends Component{
         position: 'fixed',
         desc : true,
         include_about: "initial",
-        logo_text: "PARTH PATEL"
+        logo_text: "PARTH PATEL",
+        email: "parth.patel@uwaterloo.ca",
     }
 
     listenLoadEvent = (x) => {
-        if (window.location.pathname == "/ceridian" || window.location.pathname == "/reebee" || window.location.pathname == "/waterloop" || window.location.pathname == "/odaia" || window.location.pathname == "/about") {
+        if (window.location.pathname == "/ceridian" || window.location.pathname == "/reebee" || window.location.pathname == "/waterloop" || window.location.pathname == "/odaia" || window.location.pathname == "/about" || window.location.pathname == "/vidyard") {
             // this.setState({position: 'relative', color: "#232323", opacity: "1", desc:false});
             this.setState({position: 'relative', color: "#232323", opacity: "1", desc:false, logo_text: "👈"});
             console.log(window.location.pathname);
@@ -47,6 +47,10 @@ class Nav extends Component{
         window.addEventListener('scroll', this.listenScrollEvent);
     }
 
+    sendResume = () => {
+        alert("hello");
+    } 
+
     render() {
         return (
             <nav id="nav" style={{background: this.state.color, opacity: this.state.opacity, position: this.state.position}}>
@@ -64,10 +68,6 @@ class Nav extends Component{
                     <Link to="footer" smooth={false} duration={800} className="slink">
                         Contact
                     </Link>
-
-                    <a href={resume} target="_blank">
-                        Resume
-                    </a>
                 </div>
             </nav>
         );

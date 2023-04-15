@@ -76,7 +76,7 @@ const Odaia = () => {
                     <ul>
                         <li>Interned as a Software Engineer for the Summer 2022 term</li>
                         <li>ODAIA uses AI and big data to produce real-time analytics for pharma sales and marketing teams to engage with health-care providers</li>
-                        <li>Joined the Infra team to redesign how Lambdas are tested/deployed locally and optimizing processes</li>
+                        <li>Joined the Infrastructure Team to redesign how Lambdas are tested/deployed locally and optimizing processes</li>
                     </ul>
                 </div>
             </div>

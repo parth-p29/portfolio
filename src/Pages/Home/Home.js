@@ -7,6 +7,7 @@ import reebeeimg from '../../Assests/reebee.png';
 import waterloop from '../../Assests/download.png';
 import poliviews from '../../Assests/p4.png';
 import odaia from '../../Assests/odaia.jpg';
+import vidyard from '../../Assests/vidyardlogo.png';
 
 import Project from '../../Components/Project/Project';
 import diversify from '../../Assests/diversifyproj.jpg';
@@ -28,13 +29,23 @@ const oRole = "Summer 2022 Internship with ODAIA on the Infrastructure Team";
 const oS1 = "Python";
 const oS2 = "AWS";
 const oS3 = "Docker";
-const oDesc = "Redesigning AWS Lambda structure to ease development processes and improving maintainability of internal tools";
+const oDesc = "Redesigned company cloud infrastructure to ease development processes and ensure site stability";
 const oColor = "#0D0F19";
 const oImage = odaia;
 const oPath = "/odaia"
 
+const vTitle = "Software Developer @ Vidyard";
+const vRole = "Winter 2023 Internship with Vidyard on the Integrations Team";
+const vS1 = "Node.js";
+const vS2 = "TypeScript";
+const vS3 = "Ruby";
+const vDesc = "Led the development of new webhooks and internal systems to build new integrations really fast and ease sales outreach";
+const vColor = "#46db83";
+const vImage = vidyard;
+const vPath = "/vidyard"
+
 const ReebeeTitle = "Backend Software Engineer @ Reebee";
-const ReebeeRole = "Fall 2021 Internship with Reebee on the Backend Team";
+const ReebeeRole = "Fall 2021 Internship with Reebee on the Backend Flyer Management Team";
 const ReebeeS1 = "PHP";
 const ReebeeS2 = "MySQL";
 const ReebeeS3 = "AWS";
@@ -44,7 +55,7 @@ const ReebeeImage = reebeeimg;
 const ReebeePath = "/reebee";
 
 const WaterloopTitle = "Full Stack Developer @ Waterloop";
-const WaterloopRole = "Working as a Full Stack Developer on Waterloop's Web Team";
+const WaterloopRole = "Working as a Full Stack Developer on Waterloop's Backend Team";
 const WaterloopS1 = "NodeJS/Express";
 const WaterloopS2 = "PostgreSQL";
 const WaterloopS3 = "React";
@@ -100,6 +111,7 @@ const Home = () => {
             </div>  
 
             <div className="exp first">
+                <Experience title={vTitle} role={vRole} s1={vS1} s2={vS2} s3={vS3} desc={vDesc} color={vColor} image={vImage} path={vPath} />
                 <Experience title={oTitle} role={oRole} s1={oS1} s2={oS2} s3={oS3} desc={oDesc} color={oColor} image={oImage} path={oPath} />
                 <Experience title={ReebeeTitle} role={ReebeeRole} s1={ReebeeS1} s2={ReebeeS2} s3={ReebeeS3} desc={ReebeeDesc} color={ReebeeColor} image={ReebeeImage} path={ReebeePath} />
                 <Experience title={CeridianTitle} role={CeridianRole} s1={CeridianS1} s2={CeridianS2} s3={CeridianS3} desc={CeridianDesc} color={CeridianColor} image={CeridianImage} path={CeridianPath} />

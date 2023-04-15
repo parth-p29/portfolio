@@ -150,13 +150,17 @@ class Intro extends Component{
                                 }}
 
                                 onInit={(tw) => {
-
-                                    tw.typeString('<a class="job" target="_blank" href="https://www.odaia.ai/">Currently a Software Engineer @ ODAIA</a>')
+                                    tw.typeString('<a class="job" target="_blank" href="https://www.vidyard.com/">Previously a Software Developer @ Vidyard</a>')
                                     tw.pauseFor(3000)
-                                    tw.deleteChars(38)
+                                    tw.deleteChars(30)
                                     tw.pauseFor(200)
 
-                                    tw.typeString('<a class="job" target="_blank" href="https://www.reebee.com/">Previously a Backend Software Engineer @ Reebee</a>')
+                                    tw.typeString('<a class="job" target="_blank" href="https://www.odaia.ai/">a Software Engineer @ ODAIA</a>')
+                                    tw.pauseFor(3000)
+                                    tw.deleteChars(27)
+                                    tw.pauseFor(200)
+
+                                    tw.typeString('<a class="job" target="_blank" href="https://www.reebee.com/">a Backend Software Engineer @ Reebee</a>')
                                     tw.pauseFor(3000)
                                     tw.deleteChars(34)
                                     tw.pauseFor(200)
@@ -169,12 +173,12 @@ class Intro extends Component{
                                     //
                                     tw.typeString('<a class="job" target="_blank" href="https://www.ceridian.com/">Software Developer @ Ceridian</a>')
                                     tw.pauseFor(3000)
-                                    tw.deleteChars(43)
+                                    tw.deleteChars(45)
                                     tw.pauseFor(200)
 
-                                    tw.typeString('Currently Seeking Winter 2023 SWE Internships')
+                                    tw.typeString('Currently Seeking Fall 2023 SWE Internships')
                                     tw.pauseFor(3000)
-                                    tw.deleteChars(45)
+                                    tw.deleteChars(43)
                                     tw.pauseFor(200)
 
                                     .start();

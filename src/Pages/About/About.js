@@ -44,19 +44,22 @@ const About = () => {
                 <div className='jot-note'>
                     <ul>
                         <li>
-                            Finished my summer 2022 software engineering internship at <a className="alink" href="https://www.odaia.ai/">ODAIA</a>, a company who develops software that helps sales reps in pharmaceutical companies engage with medical professionals!
+                            Finished my winter 2023 software developer internship at <a className="alink" href="https://www.vidyard.com/">Vidyard</a>, a company who develops Video SaaS tools to help users gain better outreach through powerful video technology!
                         </li>
 
                         <li>
-                            Looking for internships in Winter or Fall 2023 in the realms of Software Development (backend or full stack)
+                            Looking for internships in Fall 2023 or Summer 2024 in the realms of Software Development (Backend/Full-stack/Infra)
                         </li>
 
                         <li>
-                            Starting the second half of my second year (SYDE 2B term) in September!
+                            Starting my 3rd year (SYDE 3A term) at Waterloo Engineering in May!
                         </li>
 
                         <li>
                             Trying to get better at Tennis 🎾
+                        </li>
+                        <li>
+                            Learning how to throw cards 🃏
                         </li>
                     </ul>
                 </div>

@@ -17,7 +17,7 @@ const Waterloop = () => {
 
                         <ul>
                             <li>Working as a Full stack developer for Waterloo's hyperloop student design team</li>
-                            <li>Joined the web team to develop frontend/backend features for the team's content mangement system</li>
+                            <li>Joined the Backend Team to develop frontend/backend features for the team's content mangement system</li>
                             <li>Developed API endpoints with Node.js and Express that allowed creating blog posts within the team’s web interface</li>
                         </ul>
                 </div>

@@ -59,7 +59,7 @@ const Reebee = () => {
                         <ul>
                             <li>Interned as a Backend Software Engineer for the Fall 2021 term</li>
                             <li>Reebee produces digital flyers from 1000s of stores, allowing millions of Candians to save money while shopping</li>
-                            <li>Joined the backend product team to develop and optimze new features for Reebee's mobile/web application</li>
+                            <li>Joined the Backend Flyer Management Team to develop and optimze new features for Reebee's mobile/web application</li>
                         </ul>
 
                 </div>
