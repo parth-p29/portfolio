@@ -35,7 +35,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <hr className='about-break'></hr>
+                <div className='about-break'></div>
 
                 <div className="about-title">
                     <h1>What I'm up to...</h1>
@@ -44,15 +44,15 @@ const About = () => {
                 <div className='jot-note'>
                     <ul>
                         <li>
-                            Finished my winter 2023 software developer internship at <a className="alink" href="https://www.vidyard.com/">Vidyard</a>, a company who develops Video SaaS tools to help users gain better outreach through powerful video technology!
+                            <p>Completed my Fall 2023 software engineer internship at <a className="alink" href="https://www.kikoff.com/">Kikoff</a></p>
                         </li>
 
                         <li>
-                            Looking for internships in Fall 2023 or Summer 2024 in the realms of Software Development (Backend/Full-stack/Infra)
+                            Looking for Summer 2024 internships in the realms of software engineering
                         </li>
 
                         <li>
-                            Starting my 3rd year (SYDE 3A term) at Waterloo Engineering in May!
+                            Currently in third year (3B) at UWaterloo Systems Design Engineering
                         </li>
 
                         <li>
@@ -64,7 +64,10 @@ const About = () => {
                     </ul>
                 </div>
 
-                <hr className='about-break'></hr>
+                {/* <hr className='about-break'></hr> */}
+
+                <div className='about-break'></div>
+
 
                 <div className="about-title">
                     <h1>Let's Connect!</h1>

@@ -41,11 +41,9 @@
 }
 
 .about-break{
-    margin: 80px 250px 80px 250px;
-    height: 2px;
-    background-color: #4d4d4d4e;
-    opacity: 0.7;
-    border: none;
+    background-color: #4D4D4D;
+    width: 10px;
+    margin: 100px;
 }
 
 .jot-note{
@@ -65,14 +63,32 @@
     justify-content: center;
 }
 
+.jot-note ul {
+    padding: 60px 40px 60px 40px; 
+}
+
 .jot-note ul{
-    width: 60%;
+    width: 80%;
     letter-spacing: 0.3px;
     color: #4D4D4D;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    border-radius: 1em;
+
 }
 
 .jot-note li{
-    margin: 13px 0px 13px 0px;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 1em;
 }
 
 @media  screen and (max-width:900px) {

@@ -8,6 +8,7 @@ import waterloop from '../../Assests/download.png';
 import poliviews from '../../Assests/p4.png';
 import odaia from '../../Assests/odaia.jpg';
 import vidyard from '../../Assests/vidyardlogo.png';
+import kikoff from '../../Assests/kikoff-logo.png';
 
 import Project from '../../Components/Project/Project';
 import diversify from '../../Assests/diversifyproj.jpg';
@@ -53,6 +54,16 @@ const ReebeeDesc = "Optimizing API endpoints to handle millions of daily request
 const ReebeeColor = "#008CFF";
 const ReebeeImage = reebeeimg;
 const ReebeePath = "/reebee";
+
+const kTitle = "Software Engineer @ Kikoff";
+const kRole = "Fall 2023 Internship with Kikoff on the Platform Team";
+const kS1 = "Ruby on Rails";
+const kS2 = "MySQL";
+const kS3 = "AWS";
+const kDesc = "Building financial products that help millions reach their goals";
+const kColor = "#00C434";
+const kImage = kikoff;
+const kPath = "/kikoff";
 
 const WaterloopTitle = "Full Stack Developer @ Waterloop";
 const WaterloopRole = "Working as a Full Stack Developer on Waterloop's Backend Team";
@@ -111,6 +122,7 @@ const Home = () => {
             </div>  
 
             <div className="exp first">
+                <Experience title={kTitle} role={kRole} s1={kS1} s2={kS2} s3={kS3} desc={kDesc} color={kColor} image={kImage} path={kPath} />
                 <Experience title={vTitle} role={vRole} s1={vS1} s2={vS2} s3={vS3} desc={vDesc} color={vColor} image={vImage} path={vPath} />
                 <Experience title={oTitle} role={oRole} s1={oS1} s2={oS2} s3={oS3} desc={oDesc} color={oColor} image={oImage} path={oPath} />
                 <Experience title={ReebeeTitle} role={ReebeeRole} s1={ReebeeS1} s2={ReebeeS2} s3={ReebeeS3} desc={ReebeeDesc} color={ReebeeColor} image={ReebeeImage} path={ReebeePath} />

@@ -16,7 +16,7 @@ class Nav extends Component{
     }
 
     listenLoadEvent = (x) => {
-        if (window.location.pathname == "/ceridian" || window.location.pathname == "/reebee" || window.location.pathname == "/waterloop" || window.location.pathname == "/odaia" || window.location.pathname == "/about" || window.location.pathname == "/vidyard") {
+        if (window.location.pathname == "/ceridian" || window.location.pathname == "/reebee" || window.location.pathname == "/waterloop" || window.location.pathname == "/odaia" || window.location.pathname == "/about" || window.location.pathname == "/vidyard" || window.location.pathname == "/kikoff") {
             // this.setState({position: 'relative', color: "#232323", opacity: "1", desc:false});
             this.setState({position: 'relative', color: "#232323", opacity: "1", desc:false, logo_text: "👈"});
             console.log(window.location.pathname);
