@@ -1,32 +1,45 @@
 import './Home.css';
 import Intro from '../../Components/Intro/Intro'
+import React, { useState, useRef } from 'react';
+
 
 import Experience from '../../Components/Experience/Experience';
-import Ceridianimg from '../../Assests/CeridianLogo.jpg';
+import Ceridianimg from '../../Assests/dayforce.png';
 import reebeeimg from '../../Assests/reebee.png';
 import waterloop from '../../Assests/download.png';
 import poliviews from '../../Assests/p4.png';
 import odaia from '../../Assests/odaia.jpg';
 import vidyard from '../../Assests/vidyardlogo.png';
 import kikoff from '../../Assests/kikoff-logo.png';
+import zon from '../../Assests/zonlogo.webp';
 
 import Project from '../../Components/Project/Project';
 import diversify from '../../Assests/diversifyproj.jpg';
 import companion from '../../Assests/Companion.jpg';
 import yv from '../../Assests/yearview.png';
 
-const CeridianTitle = "Software Developer @ Ceridian";
-const CeridianRole = "Winter 2021 Internship with Ceridian on the Architecture Team";
+const CeridianTitle = "Software Developer @ Dayforce";
+const CeridianRole = "Winter 2021 Internship with Dayforce on the Infra Team";
 const CeridianS1 = "C#";
 const CeridianS2 = "Azure DevOps";
 const CeridianS3 = "MongoDB";
 const CeridianDesc = "Built multiple APIs and designed backend servies to help the company shift towards a micro-service architecture";
-const CeridianColor = "#09193D";
+const CeridianColor = "#1976E2";
 const CeridianImage = Ceridianimg;
-const CeridianPath = "/ceridian"
+const CeridianPath = "/dayforce"
+
+const zonTitle = "Software Engineer @ Amazon";
+const zonRole = "Summer 2024 Internship with Amazon in the Stores Team";
+const zonS1 = "Java";
+const zonS2 = "SQL";
+const zonS3 = "AWS";
+const zonDesc = "Building services that can process and store petabytes of Amazon E-commerce data";
+const zonColor = "#E08D2D";
+const zonImage = zon;
+const zonPath = "/amazon"
 
 const oTitle = "Software Engineer @ ODAIA";
-const oRole = "Summer 2022 Internship with ODAIA on the Infrastructure Team";
+const oRole = "Summer 2022 Internship with ODAIA on the Infra Team";
 const oS1 = "Python";
 const oS2 = "AWS";
 const oS3 = "Docker";
@@ -46,7 +59,7 @@ const vImage = vidyard;
 const vPath = "/vidyard"
 
 const ReebeeTitle = "Backend Software Engineer @ Reebee";
-const ReebeeRole = "Fall 2021 Internship with Reebee on the Backend Flyer Management Team";
+const ReebeeRole = "Fall 2021 Internship with Reebee on the Backend Platform Team";
 const ReebeeS1 = "PHP";
 const ReebeeS2 = "MySQL";
 const ReebeeS3 = "AWS";
@@ -113,22 +126,63 @@ const apath = "https://devpost.com/software/poliviews";
 
 const Home = () => {
 
+    const experiences = [
+        { title: zonTitle, role: zonRole, s1: zonS1, s2: zonS2, s3: zonS3, desc: zonDesc, color: zonColor, image: zonImage, path: zonPath },
+        { title: kTitle, role: kRole, s1: kS1, s2: kS2, s3: kS3, desc: kDesc, color: kColor, image: kImage, path: kPath },
+        { title: vTitle, role: vRole, s1: vS1, s2: vS2, s3: vS3, desc: vDesc, color: vColor, image: vImage, path: vPath },
+
+        { title: oTitle, role: oRole, s1: oS1, s2: oS2, s3: oS3, desc: oDesc, color: oColor, image: oImage, path: oPath },
+        { title: ReebeeTitle, role: ReebeeRole, s1: ReebeeS1, s2: ReebeeS2, s3: ReebeeS3, desc: ReebeeDesc, color: ReebeeColor, image: ReebeeImage, path: ReebeePath },
+        { title: CeridianTitle, role: CeridianRole, s1: CeridianS1, s2: CeridianS2, s3: CeridianS3, desc: CeridianDesc, color: CeridianColor, image: CeridianImage, path: CeridianPath },
+        { title: WaterloopTitle, role: WaterloopRole, s1: WaterloopS1, s2: WaterloopS2, s3: WaterloopS3, desc: WaterloopDesc, color: WaterloopColor, image: WaterloopImage, path: WaterloopPath },
+    ];
+
+    const [showMore, setShowMore] = useState(false);
+
+    const [isAnimating, setIsAnimating] = useState(false);  // To manage fade-out animation
+
+    const myDivRef = useRef(null);
+
+    const toggleShowMore = () => {
+        if (showMore) {
+            // Scroll first to avoid layout jump
+            myDivRef.current.scrollIntoView({ behavior: 'auto' });
+
+            // Then start the fade-out animation if necessary
+            setIsAnimating(true);
+            setTimeout(() => {
+                setShowMore(false);
+                setIsAnimating(false);
+            }, 300);  // Duration of fade-out animation if any
+        } else {
+            setShowMore(true);
+        }
+    };
+
     return (
         <>
             <Intro/> 
 
-            <div className="title" id="experience">
+            <div className="title" ref={myDivRef}>
                 <h1>Places I've Worked...</h1>
-            </div>  
-
-            <div className="exp first">
-                <Experience title={kTitle} role={kRole} s1={kS1} s2={kS2} s3={kS3} desc={kDesc} color={kColor} image={kImage} path={kPath} />
-                <Experience title={vTitle} role={vRole} s1={vS1} s2={vS2} s3={vS3} desc={vDesc} color={vColor} image={vImage} path={vPath} />
-                <Experience title={oTitle} role={oRole} s1={oS1} s2={oS2} s3={oS3} desc={oDesc} color={oColor} image={oImage} path={oPath} />
-                <Experience title={ReebeeTitle} role={ReebeeRole} s1={ReebeeS1} s2={ReebeeS2} s3={ReebeeS3} desc={ReebeeDesc} color={ReebeeColor} image={ReebeeImage} path={ReebeePath} />
-                <Experience title={CeridianTitle} role={CeridianRole} s1={CeridianS1} s2={CeridianS2} s3={CeridianS3} desc={CeridianDesc} color={CeridianColor} image={CeridianImage} path={CeridianPath} />
-                <Experience title={WaterloopTitle} role={WaterloopRole} s1={WaterloopS1} s2={WaterloopS2} s3={WaterloopS3} desc={WaterloopDesc} color={WaterloopColor} image={WaterloopImage} path={WaterloopPath} />
             </div>
+            
+            <div className="exp first">
+                {experiences.slice(0, 3).map(exp => (
+                    <Experience key={exp.title} {...exp} />
+                ))}
+                {showMore && experiences.slice(3).map((exp) => (
+                    <div key={exp.title}
+                    className={isAnimating  ? 'experience-fade-out' : 'experience-fade-in'}>
+                        <Experience {...exp} />
+                    </div>
+                ))}
+
+            </div>
+
+            <button type="button" onClick={() => { toggleShowMore(); }} className='vibes'>
+                {showMore ? 'See Less' : 'See More'}
+            </button>
 
             <div className="title">
                 <h1>Featured Projects</h1>
@@ -143,7 +197,7 @@ const Home = () => {
 
             <div className="more-projs">
                 <a href="https://github.com/parth-p29" target="_blank">
-                    More Projects &#8594;
+                    More Projects
                 </a>
             </div> 
         </>

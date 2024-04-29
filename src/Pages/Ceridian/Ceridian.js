@@ -49,7 +49,7 @@ const Ceridian = () => {
             <div className="company-info">
 
                 <div className="company-title">
-                    <h1>Ceridian Internship</h1>
+                    <h1>Dayforce Internship</h1>
                 </div>
 
 
@@ -60,14 +60,14 @@ const Ceridian = () => {
 
                     <ul>
                         <li>Interned as a Software Developer for the Winter 2021 term</li>
-                        <li>Ceridian is a HCM leader and provides payroll via it's Dayforce application to millions of workers around the world</li>
-                        <li>Joined the architecture team to aid the migration from a monolith to a mico-service design</li>
+                        <li>Ceridian Dayforce is a HCM leader and provides payroll via it's Dayforce application to millions of workers around the world</li>
+                        <li>Joined the infra team to aid the migration from a monolith to a mico-service design</li>
                     </ul>
                 </div>
             </div>
 
             <div className="images">
-                <p className='i'>Some pictures from working at Ceridian</p>
+                <p className='i'>Some pictures from working at Dayforce</p>
                     <Gallery photos={photos} direction={"column"} />
             </div>
 

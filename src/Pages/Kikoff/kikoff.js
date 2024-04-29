@@ -8,6 +8,12 @@ import r5 from '../../Assests/kp5.jpg';
 import r6 from '../../Assests/kp6.jpg';
 import r7 from '../../Assests/kp7.jpg';
 import r8 from '../../Assests/kp8.jpg';
+import r9 from '../../Assests/kp9.jpg';
+import r10 from '../../Assests/kp10.jpg';
+import r11 from '../../Assests/kp11.jpg';
+import r12 from '../../Assests/kp12.jpg';
+import r13 from '../../Assests/kp13.jpg';
+import r14 from '../../Assests/kp14.jpg';
 
 const photos = [
     {
@@ -55,6 +61,42 @@ const photos = [
 
     {
         src: r8,
+        width: 18,
+        height: 20
+    },
+
+    {
+        src: r9,
+        width: 15,
+        height: 20
+    },
+
+    {
+        src: r10,
+        width: 18,
+        height: 20
+    },
+
+    {
+        src: r11,
+        width: 20,
+        height: 25
+    },
+
+    {
+        src: r12,
+        width: 18,
+        height: 20
+    },
+
+    {
+        src: r13,
+        width: 20,
+        height: 25
+    },
+
+    {
+        src: r14,
         width: 18,
         height: 20
     }

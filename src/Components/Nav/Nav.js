@@ -11,12 +11,12 @@ class Nav extends Component{
         position: 'fixed',
         desc : true,
         include_about: "initial",
-        logo_text: "PARTH PATEL",
+        logo_text: "Pa",
         email: "parth.patel@uwaterloo.ca",
     }
 
     listenLoadEvent = (x) => {
-        if (window.location.pathname == "/ceridian" || window.location.pathname == "/reebee" || window.location.pathname == "/waterloop" || window.location.pathname == "/odaia" || window.location.pathname == "/about" || window.location.pathname == "/vidyard" || window.location.pathname == "/kikoff") {
+        if (window.location.pathname == "/dayforce" || window.location.pathname == "/reebee" || window.location.pathname == "/waterloop" || window.location.pathname == "/odaia" || window.location.pathname == "/about" || window.location.pathname == "/vidyard" || window.location.pathname == "/kikoff" || window.location.pathname == "/amazon") {
             // this.setState({position: 'relative', color: "#232323", opacity: "1", desc:false});
             this.setState({position: 'relative', color: "#232323", opacity: "1", desc:false, logo_text: "👈"});
             console.log(window.location.pathname);
@@ -62,11 +62,11 @@ class Nav extends Component{
 
                 <div className="links" >
                     <a href="/about"style={{display: this.state.include_about}}>
-                        About
+                        about.
                     </a>
 
                     <Link to="footer" smooth={false} duration={800} className="slink">
-                        Contact
+                        contact.
                     </Link>
                 </div>
             </nav>

@@ -10,6 +10,7 @@
     transition: transform 0.45s ease, box-shadow 0.45s ease ;
     text-decoration: none;
     color:black;
+    background-color: white;
 }
 
 .experience:hover{

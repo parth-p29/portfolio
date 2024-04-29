@@ -4,8 +4,6 @@ import arrow from '../../Assests/down-arrow.png';
 import Nav from '../Nav/Nav';
 import { Component } from 'react';
 
-import bim2 from "../../Assests/new11.jpg";
-
 const deviceType = () => {
     const ua = navigator.userAgent;
     if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
@@ -130,15 +128,17 @@ class Intro extends Component{
             <section className="showcase" style={{marginBottom: this.state.marginb}}>
                 <Nav/>
             
-                <img src={bim2}/> 
+                {/* <img src={bim2}/>  */}
                
                 <div class="overlay"></div>
 
                 <div class="text">
-                    <h2><a href="https://syde.social/" target="_blank">Systems Design Engineering @ UWaterloo</a></h2>
+                    <h2><a>SOFTWARE ENGINEER</a></h2>
                     <h1>Parth Patel</h1>
                     <h3>
-                        <div className="typing">
+
+                        Software Engineer @ Amazon
+                        {/* <div className="typing">
                             <Typewriter
                                 options={{
                                     loop: true,
@@ -186,8 +186,9 @@ class Intro extends Component{
                                 }}
 
                             />
-                            </div>
+                            </div> */}
                         </h3>
+                        <h3 className='prev'>Previously @ <a target='_blank' href="https://www.dayforce.com/">Dayforce</a>, <a target='_blank' href="https://kikoff.com/">Kikoff</a>, <a target='_blank' href="https://www.vidyard.com/">Vidyard</a> & More</h3>
                 </div>
 
                 <div className="more-info" id="exp">

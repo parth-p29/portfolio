@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+
 *{
     font-family: 'Poppins', sans-serif;
 }
@@ -10,6 +13,12 @@
     display: flex;
     flex-direction: column;
     color: white;
+    background-color: #1A1B1F;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.prev {
+    margin-top: 0.5em;
 }
 
 .text{
@@ -18,34 +27,55 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 27%;
+    top: 35%;
     left:0;
     width: 100%;
     z-index: 10;
     opacity: 0.9;
+    color:rgb(255, 255, 255);
 }
 
+/* h3 a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+} */
+
+h3 a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+}   
+
+.slink{
+    cursor: pointer;
+}
+
+
 .text h1{
-    font-size: 6.3em;
-    font-weight: 600;
-    margin: 0.5rem 0 4rem 0;
-    letter-spacing: 7px;
+    font-size: 4em;
+    margin: 2rem 0 1.5rem 0;
+    letter-spacing: 5px;
+    font-weight: 800; /* Bold font */
+    /* text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.25); Slight shadow for depth */
 }
 
 .text h2{
-    font-size: 1.2em;
-    letter-spacing: 1px;
-    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.093);
 }
 
 .text h3{
-    font-size: 1.1em;
-    font-weight: 400;
+    font-size: 0.9em;
+    font-weight: 350;
     letter-spacing: 2.5px;
 }
 
 .text  a{
-    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.25);
     text-decoration: none;
 }
 
